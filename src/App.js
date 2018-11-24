@@ -5,7 +5,7 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 import Footer from './Footer';
-import './App.css';
+import './styles/App.css';
 
 class App extends Component {
   render() {
@@ -17,7 +17,6 @@ class App extends Component {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
-        <Footer />
       </div>
     );
   }
