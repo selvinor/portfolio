@@ -1,4 +1,38 @@
+h2 {
+  color:#fff;
+}
 p {
-  color:white;
+  color:black;
   margin:10px 0;
+}
+.avatar{
+  width:200px;
+  margin:0 auto;
+  border-radius:15px;
+}
+.avatar img{
+  border-radius:10px;
+}
+article {
+  margin: auto;
+  text-align:center;
+}
+@media screen and (max-width: 700px){
+  main, nav {
+    flex-direction: column;
+  }
+}
+header {
+  padding:0px!important;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+  margin-top:10px;
+}
+p {
+  font-size: 20px;
+  margin-top:10px;
 }

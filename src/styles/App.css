@@ -4,13 +4,17 @@
   margin: 0;
 }
 body {
-  background: url('../img/background.gif');
-  background-repeat: no-repeat;
+  background: transparent url('../img/backgroundG.jpg');
+  background-repeat: repeat-y;
+
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: screen;
 }
 header {
   padding: 60px;
   text-align: center;
-  background-color: rgb(70, 200, 161);
+  background-color: transparent;
   color: #fff;
 }
 
@@ -53,15 +57,22 @@ footer {
   background-color: #aaa;
 }
 
-.avatar {
-  background-color: rgb(70, 200, 161);
-  height: 200px;
-  margin: 10px 0;
-}
 @media screen and (max-width: 700px){
   main, nav {
     flex-direction: column;
   }
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+  margin-top:20px;
+}
+.home p {
+  font-size: 20px;
+  margin:20px auto;
+  text-align:center;
 }
 .App {
   text-align: center;
@@ -94,4 +105,23 @@ footer {
   to {
     transform: rotate(360deg);
   }
+}
+
+nav {
+  opacity: 0.5;
+}
+.byline {
+  height: 400px;
+  background-color: transparent;
+  display: flex;
+}
+.home  {
+  color: #fff;
+  font-size: 50px;
+  margin: auto;
+  text-align:center;
+  border-bottom: none;
+}
+p {
+  text-decoration: none;
 }

@@ -4,7 +4,6 @@ import Home from './Home'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
-import Footer from './Footer';
 import './styles/App.css';
 
 class App extends Component {

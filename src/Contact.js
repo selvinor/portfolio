@@ -1,20 +1,21 @@
 import React from 'react';
-//import '../styles/home.css';
-import Header from './Header'
+import './styles/contact.css';
 import Nav from './Nav'
 export default function Contact() {
   return (
     <React.Fragment>
-      <Header />
       <Nav />
       <main>   
         <section>
           <article>
-            <h2>Contact</h2>
-            <h3>Summary</h3>
+            <h2 className="contactMe">Contact Me @</h2>
             <div class="contact">
               <img src="" alt=""/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat eveniet reprehenderit officia soluta, et quae recusandae doloremque aperiam eligendi perferendis corrupti totam at, repellendus hic animi debitis sint dolorem porro!</p>
+              <ul className="contacts">
+                <li><img src={require('./img/github.png')} alt="Contact me via github"/></li>
+                <li><img src={require('./img/linkedin-logo.png')} alt="Contact me via linkedin"/></li>
+                <li><img src={require('./img/email.png')} alt="Contact me via email"/></li>
+              </ul>
             </div>
           </article> 
         </section>
