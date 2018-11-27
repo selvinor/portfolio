@@ -11,7 +11,7 @@ export default function Projects() {
             <h2 className="projectTitle">Project:</h2>
             <h2 className="project">Blooms Florist Subscriptions</h2>
             <div class="projects">
-              <a href="https://dashboard.heroku.com/apps/blooms-pdx"><img src={require('./img/blooms_400_186.png')} alt="blooms"/></a>
+              <a href="https://blooms-pdx.herokuapp.com/"><img src={require('./img/blooms_400_186.png')} alt="blooms"/></a>
               <h4>Summary:</h4>
               <ul>
                 <li>
@@ -27,7 +27,7 @@ export default function Projects() {
             <h2 className="projectTitle">Project: </h2>
             <h2 className="project">Cozy Spaces</h2>
             <div className="projects">
-            <a href="https://dashboard.heroku.com/apps/cozy-spaces-client"><img src={require('./img/cozy_400_186.png')} alt="cozy"/></a>
+            <a href="https://emoji-space-rep-client.herokuapp.com/"><img src={require('./img/cozy_400_186.png')} alt="cozy"/></a>
               <h4>Summary:</h4>
               <ul>
                 <li>
