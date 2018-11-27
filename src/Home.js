@@ -16,14 +16,9 @@ export default function Home() {
       </main>   
       <div className="links">
         <ul className="home-contacts">
-          <li className="home-contact"><a href="https://github.com/selvinor"><img src={require('./img/github.png')} alt="Contact me via github"/>github.com/selvinor</a></li>
-          <li className="home-contact"><a href="https://www.linkedin.com/in/selvin-norman-6ba4aa2b/"><img src={require('./img/linkedin-logo.png')} alt="Contact me via linkedin"/>www.linkedin.com/in/selnorman</a></li>
-          <li className="home-contact"><a href="mailto:selvin715@gmail.com"><img src={require('./img/email.png')} alt="Contact me via email"/>Contact me via email</a></li>
-        </ul> 
-        <ul className="home-contacts">
-          <li className="home-contact"><a href="https://github.com/selvinor">github.com/selvinor</a></li>
-          <li className="home-contact"><a href="https://www.linkedin.com/in/selvin-norman-6ba4aa2b/">www.linkedin.com/in/selnorman</a></li>
-          <li className="home-contact"><a href="mailto:selvin715@gmail.com">Contact me via email</a></li>
+          <li className="home-contact1"><a href="https://github.com/selvinor"><img src={require('./img/github.png')} alt="Contact me via github"/><br />github.com/selvinor</a></li>
+          <li className="home-contact2"><a href="https://www.linkedin.com/in/selvin-norman-6ba4aa2b/"><img src={require('./img/linkedin-logo.png')} alt="Contact me via linkedin"/><br />www.linkedin.com/in/selnorman</a></li>
+          <li className="home-contact3 email"><a href="mailto:selvin715@gmail.com"><img src={require('./img/email.png')} alt="Contact me via email"/><br />Contact me via email</a></li>
         </ul> 
        </div>
 
