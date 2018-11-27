@@ -7,7 +7,7 @@ export default function About() {
       <Nav />
       <main className="about">   
         <section>
-          <article className="about">
+          <article className="about-article">
             <h2>About Me</h2>         
             <div className="avatar">
               <img src={require('./img/me_200.jpg')} alt="it's me"/> 

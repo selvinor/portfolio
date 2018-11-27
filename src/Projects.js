@@ -8,14 +8,14 @@ export default function Projects() {
       <main>   
         <section>
           <article>
-            <h2>Project:</h2>
-            <h2>Blooms Florist Subscriptions</h2>
+            <h2 className="projectTitle">Project:</h2>
+            <h2 className="project">Blooms Florist Subscriptions</h2>
             <div class="projects">
-              <img src={require('./img/blooms_360.jpg')} alt="blooms"/>
+              <a href="https://dashboard.heroku.com/apps/blooms-pdx"><img src={require('./img/blooms_400_186.png')} alt="blooms"/></a>
               <h4>Summary:</h4>
               <ul>
                 <li>
-                  <p>Blooms Subscri[tions is a florist app that enables customers to send flowers to a recipient at a residence or business according to a schedule.</p>
+                  <p>Blooms Subscriptions is a florist app that enables customers to send flowers to a recipient at a residence or business according to a schedule.</p>
                 </li>
                 <li>
                   <p>React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</p>
@@ -24,9 +24,10 @@ export default function Projects() {
             </div>
           </article> 
           <article>
-            <h2>Project: Cozy Spaces</h2>
-            <div class="projects">
-              <img src={require('./img/cozy_360.jpg')} alt="cozy"/>
+            <h2 className="projectTitle">Project: </h2>
+            <h2 className="project">Cozy Spaces</h2>
+            <div className="projects">
+            <a href="https://dashboard.heroku.com/apps/cozy-spaces-client"><img src={require('./img/cozy_400_186.png')} alt="cozy"/></a>
               <h4>Summary:</h4>
               <ul>
                 <li>
@@ -39,9 +40,10 @@ export default function Projects() {
             </div>
           </article> 
           <article>
-            <h2>Project: Emoji Madness</h2>
+            <h2 className="projectTitle">Project:</h2>
+            <h2 className="project">Emoji Madness</h2>
             <div class="projects">
-              <img className="about-img" src={require('./img/emoji_360.jpg')} alt="emoji"/>
+            <a href="https://dashboard.heroku.com/apps/emoji-space-rep-client"><img className="about-img" src={require('./img/emoji_400_186.png')} alt="emoji"/></a>
               <h4>Summary:</h4>
               <ul>
                 <li>

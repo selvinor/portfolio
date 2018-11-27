@@ -5,7 +5,19 @@
 .contacts li {
   display:inline-block;
   padding:20px;
+  text-align:left;
+
 }
 h2.contactMe {
   color:#fff;
+}
+.contacts{
+  padding:0;
+}
+.contacts li a{
+  text-decoration:none;
+}
+.contacts li a, .contacts li a:visited{
+color:#fff;
+text-align:left;
 }
