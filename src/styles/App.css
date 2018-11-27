@@ -56,16 +56,46 @@ footer {
   padding: 20px;
   background-color: #aaa;
 }
+/* .Navbar__menu {
+  display: none;
+} */
 
+#Navbar_links {
+  display:flex;
+}
+.Navbar__menu {
+  background: #333;
+  opacity: 0.5;
+  width:100%;
+  height:46px;
+  align-self: flex-start;
+  display: none;
+  padding:10px;
+} 
 @media screen and (max-width: 768px){
   main, nav {
     flex-direction: column;
     padding:5px 0;
     font-size:3vw;
   }
-  .Navbar__Link {
+  
+ 
+  .Navbar__menu {
+    background: #333;
+    opacity: 0.5;
+    width:100%;
+    height:46px;
+    align-self: flex-start;
+    display: flex;
+    padding:10px;
+  } 
+  .Navbar__menu img {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  #Navbar_links {
     display:none;
-  }  
+  }
   h2 {
     font-size: 40px;
   }

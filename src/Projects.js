@@ -6,7 +6,7 @@ export default function Projects() {
     <React.Fragment>
       <Nav />
       <main>   
-        <section>
+        <section className="project-section">
           <article>
             <h2 className="projectTitle">Project:</h2>
             <h2 className="project">Blooms Florist Subscriptions</h2>
