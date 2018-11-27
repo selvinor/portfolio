@@ -61,12 +61,13 @@ footer {
 .home-h2 {
   font-size: 50px;
   color:#000;
+  text-align:center;
 }
 .home-h3 {
   font-size: 40px;
   margin-top:20px;
   color:#fff;
-
+  text-align:center;
 }
 .home-p {
   font-size: 20px;
@@ -83,17 +84,30 @@ footer {
      display: flex;
   }
 }
-.contact {
+.home-contact {
   padding: 20px;
   margin-bottom: 20px;
   box-sizing: border-box;
-  width:30%;
   margin: 10px;
   flex: 1;
+  width:400px;
+  list-style-type: none;
+  padding:0;
 }
-.contact img {
-  margin-right:10px;
 
+.home-contacts {
+  text-decoration:none;
+  max-width:1000px;
+  margin:0;
+  display:flex;
+}
+.home-contacts li a, .home-contacts li a:visited{
+color:#fff;
+text-align:left;
+}
+
+.home-contact img {
+  margin-right:10px;
 }
 
 @media screen and (max-width: 700px){
