@@ -6,10 +6,10 @@ export default function Nav() {
   return (
     <React.Fragment>
       <nav>
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/projects'>Projects</Link>
-        <Link to='/contact'>Contact</Link>
+        <Link className="Navbar__Link" to='/'>Home</Link>
+        <Link className="Navbar__Link" to='/about'>About</Link>
+        <Link className="Navbar__Link" to='/projects'>Projects</Link>
+        <Link className="Navbar__Link" to='/contact'>Contact</Link>
       </nav>
     </React.Fragment>  
   );

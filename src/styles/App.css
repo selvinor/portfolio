@@ -21,7 +21,6 @@ header {
 
 nav {
   display: flex;
-  width:100%;
   background-color: #333;
 }
 
@@ -29,7 +28,6 @@ nav a {
   color: white;
   text-decoration: none;
   padding: 20px;
-  text-align: center;
 }
 
 nav a:hover {
@@ -59,71 +57,76 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
   main, nav {
     flex-direction: column;
+    padding:5px 0;
+    font-size:3vw;
   }
-}
-h2 {
-  font-size: 40px;
-}
-h3 {
-  font-size: 30px;
-  margin-top:20px;
-}
-.home p {
-  font-size: 20px;
-  margin:20px auto;
-  text-align:center;
-}
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .Navbar__Link {
+    display:none;
+  }  
+  h2 {
+    font-size: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  h3 {
+    font-size: 30px;
+    margin-top:20px;
   }
-}
+  .home p {
+    font-size: 20px;
+    margin:20px auto;
+    text-align:center;
+  }
+  .App {
+    text-align: center;
+  }
 
-nav {
-  opacity: 0.5;
-}
-.byline {
-  height: 400px;
-  background-color: transparent;
-  display: flex;
-}
-.home  {
-  color: #fff;
-  font-size: 50px;
-  margin: auto;
-  text-align:center;
-  border-bottom: none;
-}
-p {
-  text-decoration: none;
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  nav {
+    opacity: 0.5;
+  }
+  .byline {
+    height: 400px;
+    background-color: transparent;
+    display: flex;
+  }
+  .home  {
+    color: #fff;
+    font-size: 50px;
+    margin: auto;
+    text-align:center;
+    border-bottom: none;
+  }
+  p {
+    text-decoration: none;
+  }
 }

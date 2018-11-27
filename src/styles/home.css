@@ -18,23 +18,6 @@ header {
   color: #fff;
 }
 
-nav {
-  display: flex;
-  background-color: #333;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 20px;
-  text-align: center;
-  font-size:2vw;
-}
-
-nav a:hover {
-  color: #333;
-  background-color: #fff;
-}
 
 .home-main {
   display: flex;
@@ -120,12 +103,8 @@ text-align:left;
 .email {
   margin-top:10px;
 }
-@media screen and (max-width: 700px){
-  main, nav {
-    flex-direction: column;
-    padding:5px 0;
-    font-size:3vw;
-  }
+@media screen and (max-width: 768px){
+
   .box {
     height: 400px;
     display: flex;
@@ -143,7 +122,6 @@ text-align:left;
   .home-p {
     font-size: 20px;
     margin:20px auto;
-    text-align:center;
   }
 
   a {
