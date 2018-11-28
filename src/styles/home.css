@@ -62,7 +62,19 @@ footer {
   max-width: 1000px;
   margin: 40px auto 0 auto;
 }
-@media (min-width: 600px){
+
+.home-main  {
+  color: #fff;
+  font-size: 50px;
+  margin: 20% auto 0;
+  text-align:center;
+  border-bottom: none;
+}
+
+.home-contacts img {
+  width:35px;
+}
+@media (min-width: 768px){
   .links {
      display: flex;
   }
@@ -148,7 +160,7 @@ text-align:left;
   .home-main  {
     color: #fff;
     font-size: 50px;
-    margin: 25% auto 0;
+    margin: 35% auto 0;
     text-align:center;
     border-bottom: none;
   }
