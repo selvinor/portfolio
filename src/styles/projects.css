@@ -1,10 +1,16 @@
-article {
+.project-article {
   width:400px;
   margin:0 auto;
+  background:#fff;
+  padding:10px;
 }
 .projects {
   width:400px;
   margin:0 auto;
+}
+.projects img {
+  width:380px;
+  border-radius:10px;
 }
 .project {
   color:#000;
@@ -29,6 +35,16 @@ p {
   font-size: 18px;
   text-align:left;
 }
-.project-section {
-  background-color:#eee;
+ul {
+  padding-inline-start:20px;
+
+}
+li {
+  padding:0px 15px;
+}
+@media screen and (max-width: 440px){
+  .projects img {
+    width:89vw;
+    border-radius:10px;
+  }
 }

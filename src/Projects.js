@@ -7,7 +7,7 @@ export default function Projects() {
       <Nav />
       <main>   
         <section className="project-section">
-          <article>
+          <article className="project-article">
             <h2 className="projectTitle">Project:</h2>
             <h2 className="project">Blooms Florist Subscriptions</h2>
             <div class="projects">
@@ -23,7 +23,7 @@ export default function Projects() {
               </ul>            
             </div>
           </article> 
-          <article>
+          <article className="project-article">
             <h2 className="projectTitle">Project: </h2>
             <h2 className="project">Cozy Spaces</h2>
             <div className="projects">
@@ -39,7 +39,7 @@ export default function Projects() {
               </ul>
             </div>
           </article> 
-          <article>
+          <article className="project-article">
             <h2 className="projectTitle">Project:</h2>
             <h2 className="project">Emoji Madness</h2>
             <div class="projects">
