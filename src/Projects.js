@@ -5,12 +5,14 @@ export default function Projects() {
   return (
     <React.Fragment>
       <Nav />
+      <h2>Projects</h2>
+
       <main>   
         <section className="project-section">
           <article className="project-article">
-            <h2 className="projectTitle">Project:</h2>
-            <h2 className="project">Blooms Florist Subscriptions</h2>
-            <div class="projects">
+            <h3 className="projectTitle">Project:</h3>
+            <h3 className="projectTitle">Blooms Florist Subscriptions</h3>
+            <div className="projects">
               <a href="https://blooms-pdx.herokuapp.com/"><img src={require('./img/blooms_400_186.png')} alt="blooms"/></a>
               <h4>Summary:</h4>
               <ul>
@@ -24,8 +26,8 @@ export default function Projects() {
             </div>
           </article> 
           <article className="project-article">
-            <h2 className="projectTitle">Project: </h2>
-            <h2 className="project">Cozy Spaces</h2>
+            <h3 className="projectTitle">Project: </h3>
+            <h3 className="projectTitle">Cozy Spaces</h3>
             <div className="projects">
             <a href="https://emoji-space-rep-client.herokuapp.com/"><img src={require('./img/cozy_400_186.png')} alt="cozy"/></a>
               <h4>Summary:</h4>
@@ -40,9 +42,9 @@ export default function Projects() {
             </div>
           </article> 
           <article className="project-article">
-            <h2 className="projectTitle">Project:</h2>
-            <h2 className="project">Emoji Madness</h2>
-            <div class="projects">
+            <h3 className="projectTitle">Project:</h3>
+            <h3 className="projectTitle">Emoji Madness</h3>
+            <div className="projects">
             <a href="https://dashboard.heroku.com/apps/emoji-space-rep-client"><img className="about-img" src={require('./img/emoji_400_186.png')} alt="emoji"/></a>
               <h4>Summary:</h4>
               <ul>
