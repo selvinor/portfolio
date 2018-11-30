@@ -5,52 +5,64 @@ export default function Projects() {
   return (
     <React.Fragment>
       <Nav />
-      <h2>Projects</h2>
-
-      <main>   
-        <section className="project-section">
+      <main>  
+        <section id="project-section">
+        <h2>Projects</h2>
           <article className="project-article">
-            <h3 className="projectTitle">Project:</h3>
-            <h3 className="projectTitle">Blooms Florist Subscriptions</h3>
+            <h3 className="projectTitle">Project: Blooms Florist Subscriptions</h3>
             <div className="projects">
-              <a href="https://blooms-pdx.herokuapp.com/"><img src={require('./img/blooms_400_186.png')} alt="blooms"/></a>
+              <a href="https://blooms-pdx.herokuapp.com/"><img src={require('./img/blooms_screen_640.jpg')} alt="blooms"/></a>
               <h4>Summary:</h4>
               <ul>
                 <li>
                   <p>Blooms Subscriptions is a florist app that enables customers to send flowers to a recipient at a residence or business according to a schedule.</p>
                 </li>
                 <li>
-                  <p>React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</p>
+                  <p>Tech Stack: React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</p>
                 </li>
               </ul>            
             </div>
           </article> 
           <article className="project-article">
-            <h3 className="projectTitle">Project: </h3>
-            <h3 className="projectTitle">Cozy Spaces</h3>
+            <h3 className="projectTitle">Project: Cozy Spaces</h3>
             <div className="projects">
-            <a href="https://emoji-space-rep-client.herokuapp.com/"><img src={require('./img/cozy_400_186.png')} alt="cozy"/></a>
+            <a href="https://cozy-spaces-client.herokuapp.com/"><img src={require('./img/cozy_640.jpg')} alt="cozy"/></a>
               <h4>Summary:</h4>
               <ul>
                 <li>
                   <p>Cozy Spaces is an app that allows people to find and recommend cozy spots to hang out in their vicinity.  They can rate places and even add their own favorite cozy spaces.</p>
                 </li>
                 <li>
-                  <p>React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</p>
+                  <p>Tech Stack: React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</p>
                 </li>
               </ul>
             </div>
           </article> 
           <article className="project-article">
-            <h3 className="projectTitle">Project:</h3>
-            <h3 className="projectTitle">Emoji Madness</h3>
+            <h3 className="projectTitle">Project: Blooms Orders</h3>
             <div className="projects">
-            <a href="https://dashboard.heroku.com/apps/emoji-space-rep-client"><img className="about-img" src={require('./img/emoji_400_186.png')} alt="emoji"/></a>
+            <img className="about-img" src={require('./img/bloomsOrders_640.jpg')} alt="emoji"/>
+              <h4>Summary:</h4>
+              <ul>
+                <li> 
+                  <p>The Blooms Order App is a Mobile app built with React Native that provides an alternative to taking phone and walk-in orders on paper.</p>
+                  <p>The florist can capture the details of walk-in and phone orders using a tablet or phone.</p>
+                  <p>The app will integrate with existing systems to synch orders from all sources and serve as a single source of truth on pending orders.</p>
+                  <p>Offers the potential to easily update orders and set statuses.</p>
+                  <p>Tech Stack: React Native, Redux, Node.js, Express, Mongo, Mongoose</p>
+                </li>
+              </ul>
+            </div>
+          </article> 
+          <article className="project-article">
+            <h3 className="projectTitle">Project: Emoji Madness</h3>
+            <div className="projects">
+            <a href="https://emoji-space-rep-client.herokuapp.com"><img className="about-img" src={require('./img/emoji_640.jpg')} alt="emoji"/></a>
               <h4>Summary:</h4>
               <ul>
                 <li>
                   <p>The Emoji Madness App will help you to learn the emoji language, which is based on symbols that easily bridge language barriers, save time, and add emotional nuance that is difficult to achieve in brief text exchanges. The app utilizes Spaced Repetition Learning to help users retain knowledge easier by testing them more often on the things they forget most frequently.  </p>
-                  <p>React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</p>
+                  <p>Tech Stack: React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</p>
                 </li>
               </ul>
             </div>

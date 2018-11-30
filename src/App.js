@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, withRouter, BrowserRouter } from 'react-router-dom';
+import { Route, withRouter, BrowserRouter, Switch } from 'react-router-dom';
 import Container from './Container'
 import './styles/App.css';
 
@@ -8,32 +8,22 @@ class App extends Component {
     return (
       <BrowserRouter>
       <div className="app">
+      <Switch>
           <Route exact path="/" component={Container} 
-             onEnter={function(){
-              document.getElementById("home-section").scrollIntoView();
-              }
-            }
+            // onUpdate={document.getElementById("home-section").scrollIntoView()}
           />
           <Route exact path="/about" component={Container} 
-             onEnter={function(){
-              document.getElementById("about-section").scrollIntoView();
-              }
-            }
+            // onUpdate={document.getElementById("about-section").scrollIntoView()}
+
           />
           <Route exact path="/projects" component={Container} 
-             onEnter={function(){
-              document.getElementById("projects-section").scrollIntoView();
-              }
-            }
+            // onUpdate={document.getElementById("projects-section").scrollIntoView()}
           />
 
           <Route exact path="/contact" component={Container} 
-             onEnter={function(){
-              document.getElementById("contact_section").scrollIntoView();
-              }
-            }
+            // onUpdate={document.getElementById("contact-section").scrollIntoView()} 
           />
-
+      </Switch>
       </div>
       </BrowserRouter>
     );

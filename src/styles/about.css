@@ -5,16 +5,18 @@
   background-position: center center; 
   background-size:cover;
   background-blend-mode: overlay;
-  height:1080px;
+  height:1280px;
 }
 .avatar {
-  margin-left:5%;
-  height:200px;
-  width:200px;
+  margin-left:10%;
+  height:160px;
+  width:160px;
 }
-.about-main h2 {
-  color:#fff;
-}
+#about-section {
+  display:flex;
+  height:1280px;
+  }
+
 p {
   color:#000;
   margin:10px 0;
@@ -41,8 +43,8 @@ p {
 }
 
 .about-main h2 {
-  font-size: 3vw;
-  margin-bottom:20px;
+  font-size: 2.5vw;
+  color:#fff;
 }
 @media screen and (max-width: 768px){
     main, nav {
@@ -53,8 +55,9 @@ p {
     padding:0px!important;
   }
   .about-main h2 {
+    font-size: 4.5vw;
+
     color:#fff;
-    font-size:4vw;
   }
   h3 {
     font-size: 30px;

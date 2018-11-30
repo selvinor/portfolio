@@ -39,7 +39,7 @@ main {
 }
 
 article {
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #999;
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -71,7 +71,7 @@ footer {
     font-size:3vw;
   }
   body {
-    background: #222 url('../img/DSC_1593.jpg');
+    background: #1a1a1a url('../img/DSC_1593.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center; 
