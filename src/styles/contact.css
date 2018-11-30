@@ -1,13 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.contact-main {
+  background: #666  url('../img/pipes.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; 
+  background-size:cover;
+  background-blend-mode: soft-light;
+  height:1280px;
+  display:flex;
+}
+
+#contact-section {
+  display:flex;
+  height:1280px;
+
+  }
+
+
+#contact-article {
+  color: #fff;
+  font-size: 50px;
+  margin: auto;
+  text-align:center;
+  border-bottom: none;
+  width:1920px;
+  height:1280px;
+  background:rgba(120, 120, 120, 0.6) ;
+  border-radius:15px;
+}
+#contact-article p {
+  font-size:3vw;
+  color:#fff;
+  display: flex;
+  flex-wrap: wrap;
+  text-align:center;
+  margin:auto;
+}
+
+.contact-main h2 {
+  color:#fff;
+
+}
+p {
+  color:#fff;
+  margin:10px 0;
+}
+
+.contact {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts li a{
+  text-align:center;
+}
+
+@media screen and (max-width: 768px){
+    main, nav {
+      flex-direction: column;
+    }
+
+  header {
+    padding:0px!important;
+  }
+  .contact-main h2 {
+    color:#fff;
+    font-size:4vw;
+  }
+  h3 {
+    font-size: 30px;
+    margin-top:10px;
+  }
+  p {
+    font-size: 20px;
+    margin-top:10px;
+  }
+  .contact {
+    height:600px;
+    display:flex;
+  }
+  .contact-article p {
+    font-size:3.5vw;
+  }
+}
+  @media screen and (max-width: 440px){
+    .contact-article p {
+    font-size:4.5vw;
+  }
+}
+
+
+
 
 .contacts {
   list-style-type: none;
   padding:0;
-  width:400px;
 }
 .contacts li {
   display:inline-block;
   padding:20px;
-  text-align:left;
 }
 h2.contactMe {
   color:#fff;
@@ -17,20 +113,20 @@ h2.contactMe {
   text-decoration:none;
 }
 .contacts li a, .contacts li a:visited{
-color:#000;
-text-align:left;
+color:#fff;
+width:400px;
 }
 .contact-section {
-  display: flex;
+
   align-items: center;
   justify-content: center;
-  margin-top:25%;
 }
 .contact-article {
-  background-color: #fff;
+  background-color: #fff; 
   color:#000;
-  padding:20px;
+  /* padding:20px; */
 }
 .contact-article  h2 {
   color:#000;
 }
+
