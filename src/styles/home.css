@@ -94,14 +94,7 @@ footer {
     flex-wrap: wrap;
     text-align:center;
   }
-  #home-article {
-    color: #fff;
-    font-size: 3vw;
-    margin: auto;
-    text-align: center;
-    border-bottom: none;
-    width: 60%;
-}
+
 }
 @media (min-width: 1024px){
   .home p {
@@ -180,7 +173,7 @@ text-align:left;
     margin-left: 0px;
   }
   a {
-    font-size:3vw;
+    font-size:2.5vw;
   }
 
   nav {

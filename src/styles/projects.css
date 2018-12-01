@@ -1,21 +1,18 @@
-#project-main, .project-article {
+.project-article {
   background:  rgba(2, 51, 17, 0.2) url('../img/projects.jpg');
   /* background-repeat:repeat-y; */
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position:center center;
-  background-size:cover;
+  /* background-size:cover; */
   height:1080px;
-  width:1920px;
+  width:100vw;
   margin:auto;
 }
 #project-section {
   margin:auto;
 }
-.project-article {
-  display:flex;
-  padding:20px 0;
-}
+
 .projImg img {
   width:640px;
   border-radius:10px;
@@ -27,9 +24,12 @@
   background:rgba(221, 252, 232, 0.67) ;
   border-radius:10px;
   max-width:500px;
+  display:flex;
+  flex:1 1 0;
+  align-items: stretch;
 }
 .summary button {
-  margin:auto;
+  margin:auto 10px auto 0;
 }
 .projectTitle {
   color:white;
@@ -42,8 +42,16 @@
 .project {
   color:#000;
   font-size: 24px;
-  margin:10px auto;
-
+  /* margin:10px auto; */
+  display: flex;
+  flex: 1 1 0;
+  align-items: stretch;
+}
+.techStack {
+  margin-top:10px;
+  display:flex;
+  border-top:2px #666 solid;
+  padding:5px 0;
 }
 h2 {
   color:white;
@@ -79,23 +87,27 @@ ul {
 li {
   padding:0px 15px;
 }
-
+.summary {
+  flex: 1 1 0;
+  display: flex;
+  align-items: stretch;
+}
 .summary p {
   font-size:1.2vw;
-  align-self: auto;
+  /* align-self: auto; */
 }
 @media screen and (max-width: 1366px){
   .summary p {
     font-size:1.8vw;
-    align-self: auto;
+    /* align-self: auto; */
   }
 }
 @media screen and (max-width: 1280px){
   .summary p {
     font-size:1.8vw;
-    align-self: auto;
+    /* align-self: auto; */
   }
-  main, article, .project, .summary {
+  main, article, .project {
     flex-direction: column;
 
   }
@@ -105,15 +117,15 @@ li {
     background-size:cover;
     background-blend-mode: overlay;
     margin:auto;
-    height:4500px;
+    height:4320px;
   }
   .summary p {
-    font-size:2.6vw;
-    align-self: auto;
+    font-size:2.2vw;
+    /* align-self: auto; */
   }
 }
 @media screen and (max-width: 1024px){
-  main, article, .project, .summary {
+  main, article, .project {
     flex-direction: column;
 
   }
@@ -129,7 +141,7 @@ li {
 
   .summary p {
     font-size:2.6vw;
-    align-self: auto;
+    /* align-self: auto; */
   }
 
 
@@ -204,9 +216,11 @@ li {
   }
   .summary p {
     font-size: 3vw;
-    align-self: auto;
+    /* align-self: auto; */
   }
-
+  button a {
+    font-size: 2vw;
+  }
 
   /* #project-main { */
     /* background: rgba(2, 51, 17, 0.2)   url('../img/projects_480.jpg');
