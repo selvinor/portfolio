@@ -89,10 +89,16 @@ p {
 
   #about-main {
     background:  transparent url('../img/synth_768_1024.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
   }
 }
 @media screen and (max-width: 480px){
   #about-main {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
     background:  transparent url('../img/synth_480_853.jpg');
   }
 
@@ -100,6 +106,9 @@ p {
 @media screen and (max-width: 414px){
 
   #about-main {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
     background:  transparent url('../img/synth_414_900.jpg');
   }
 }
@@ -107,16 +116,25 @@ p {
 
   #about-main {
     background:  transparent url('../img/synth_375_812.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
   }
 }
 @media screen and (max-width: 360px){
 
   #about-main {
     background:  transparent url('../img/synth_360_740.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
   }
 }
 @media screen and (max-width: 320px){
   #about-main {
   background:  transparent url('../img/synth_320_570.jpg');
-}
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  }
 }
