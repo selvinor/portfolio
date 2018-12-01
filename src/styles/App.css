@@ -7,7 +7,6 @@ body {
   background: #2235e6 url('../img/conduit.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center; 
   background-blend-mode: overlay;
 }
 header {
@@ -75,7 +74,6 @@ footer {
     background: transparent url('../img/servers_1024_1366.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center; 
   background-blend-mode: overlay;
   }
  
