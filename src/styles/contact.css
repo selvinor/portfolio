@@ -74,13 +74,13 @@ margin:auto;
 }
 .contact input {
   height:35px;
-  width:400px;
+  width:90%;
   display:flex;
   flex-direction: column;
 }
 .contact textarea {
   height:35px;
-  width:400px;
+  width:90%;
   height:150px;
   display:flex;
   flex-direction: column;
@@ -124,7 +124,7 @@ button a {
   }
   .contact-form input {
     height: 35px;
-    width: 50%;
+    width: 90%;
     display: block;
     margin: 20px auto auto;
     font-size:2.5vw;
@@ -132,7 +132,7 @@ button a {
 
 .contact-form textarea {
   height:35px;
-  width:50%;
+  width:90%;
   height:300px;
   display:block;
   margin:auto;
@@ -210,7 +210,7 @@ button a {
   .contact-form input {
 
     height:35px;
-    width:200px;
+    width:90%;
     display:block;
     margin:20px auto auto;
 
