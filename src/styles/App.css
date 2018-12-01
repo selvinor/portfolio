@@ -66,19 +66,21 @@ footer {
   padding:10px;
 } 
 @media screen and (max-width: 1024px){
-  main, nav, .summary, .project {
+  /* main, nav, .summary, .project {
     flex-direction: column;
     font-size:3vw;
-  }
+  } */
   body {
-    background: #1a1a1a url('../img/DSC_1593.jpg');
+    background: #2235e6 url('../img/DSC_1593.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center; 
     background-blend-mode: overlay;
+    margin:auto;
+    background-size: cover;
   }
  
-  .Navbar__menu {
+  /* .Navbar__menu {
     background: #333;
     opacity: 0.5;
     width:100%;
@@ -93,7 +95,7 @@ footer {
   }
   #Navbar_links {
     display:none;
-  }
+  } */
   h2 {
     font-size: 40px;
   }

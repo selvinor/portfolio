@@ -66,6 +66,14 @@ footer {
 .home-contacts img {
   width:35px;
 }
+#home-article {
+  color: #fff;
+  font-size: 3vw;
+  margin: auto;
+  text-align: center;
+  border-bottom: none;
+  width: 60%;
+}
 @media (min-width: 1366px){
   #home-section {
     /* height:200px; */
@@ -86,6 +94,14 @@ footer {
     flex-wrap: wrap;
     text-align:center;
   }
+  #home-article {
+    color: #fff;
+    font-size: 3vw;
+    margin: auto;
+    text-align: center;
+    border-bottom: none;
+    width: 60%;
+}
 }
 @media (min-width: 768px){
   .links {

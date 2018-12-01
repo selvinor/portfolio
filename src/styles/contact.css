@@ -11,8 +11,8 @@
   background-position: center center; 
   background-size:cover;
   background-blend-mode: soft-light;
-
-  display:flex;
+  margin:auto;
+ 
 }
 
 #contact-section {
@@ -56,13 +56,16 @@
 }
 
 @media screen and (max-width: 768px){
-
+#contact-section {
+  height:1500px;
+}
   header {
     padding:0px!important;
   }
   .contact-main h2 {
     color:#fff;
     font-size:4vw;
+    
   }
   h3 {
     font-size: 30px;

@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 //import '../styles/nav.css';
 
 export default class Nav extends Component {
+  componentWillMount() {
+    
+  }
+
   render() {
  // document.getElementById('Navbar_links').style.display = 'flex';
   function toggleMenu() {
@@ -28,7 +32,7 @@ export default class Nav extends Component {
 }
   return (
     <React.Fragment>
-      <div className="Navbar__menu"  onClick={() => {toggleMenu()}}><img src={require('./img/hamburger.png')} alt='' /></div>
+      {/* <div className="Navbar__menu"  onClick={() => {toggleMenu()}}><img src={require('./img/hamburger.png')} alt='' /></div> */}
       <nav id="Navbar_links">
         <Link className="Navbar__Link" onClick={() => { window.scrollTo(0, 0);scrollToTargetAdjusted('home-main')}} to='/'>Home</Link>
         <Link className="Navbar__Link" onClick={() => { window.scrollTo(0, 0);scrollToTargetAdjusted('about-main')}} to='/about'>About</Link>

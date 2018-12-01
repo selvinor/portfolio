@@ -4,6 +4,10 @@ import Container from './Container'
 import './styles/App.css';
 
 class App extends Component {
+  componentWillMount() {
+    
+  }
+
   render() {
     return (
       <BrowserRouter>
