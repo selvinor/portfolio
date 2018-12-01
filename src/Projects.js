@@ -47,11 +47,9 @@ export default class Projects  extends Component {
                 </div>
               </div>
               <div className="summary">
-                  <p><button><a href='https://github.com/selvinor/order-entry-app'>GitHub Link</a></button></p>
-                  <p>The Blooms Order App is a Mobile app built with React Native that provides an alternative to taking phone and walk-in orders on paper.</p>
-                  <p>The florist can capture the details of walk-in and phone orders using a tablet or phone.</p>
-                  <p>The app will integrate with existing systems to synch orders from all sources and serve as a single source of truth on pending orders.</p>
-                  <p>Offers the potential to easily update orders and set statuses.
+                  <p><button><a href='https://github.com/selvinor/order-entry-app'>GitHub Link</a></button><button><a href='https://emoji-space-rep-client.herokuapp.com'>Live Link</a></button>
+                  <p>The Blooms Order App is a Mobile app built with React Native that enables a florist to take walk-in and phone orders using a tablet or phone.</p>
+                  The app is intended to integrate with Square POS to synch online orders and provide a single source of truth for all orders.
                   <span className="techStack">Tech Stack: React Native, Redux, Node.js, Express, Mongo, Mongoose</span></p>
               </div>
             </article> 
