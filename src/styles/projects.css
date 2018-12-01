@@ -1,8 +1,12 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+}
 #project-main {
   background:  rgba(2, 51, 17, 0.2) url('../img/projects.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:cover;
   background-blend-mode: overlay;
   background-position: center center;
   height:2500px;
@@ -101,7 +105,6 @@ li {
   #project-main {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
     background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
@@ -118,7 +121,6 @@ li {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_1024_1366.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
     background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
@@ -135,7 +137,6 @@ li {
     background: rgba(2, 51, 17, 0.2)  url('../img/projects_1024_768.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
     background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
@@ -155,7 +156,6 @@ li {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_768.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
     background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
@@ -177,7 +177,6 @@ li {
   #project-main {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
     background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
@@ -192,7 +191,6 @@ li {
   #project-main {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
     background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
@@ -217,7 +215,6 @@ li {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_480.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
     background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
@@ -230,7 +227,6 @@ li {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_414.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
     background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
@@ -243,8 +239,7 @@ li {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_375.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
-    background-blend-mode: overlay;
+    background-size:cover    background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
     height: 2700px;
@@ -256,7 +251,6 @@ li {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_360.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:cover;
     background-blend-mode: overlay;
     background-position: center center;
     margin:auto;
