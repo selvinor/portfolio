@@ -18,13 +18,20 @@
   border-radius:10px;
   margin:auto;
 }
+.project {
+  color:#000;
+  font-size: 24px;
+  margin:auto;
+  display: flex;
+  flex: 1 1 0;
+  align-items: stretch;
+}
 .summary {
-  margin:auto 50px auto;
-  padding:30px;
+
+  padding:20px;
   background:rgba(221, 252, 232, 0.67) ;
   border-radius:10px;
-  max-width:500px;
-  display:flex;
+  max-width:640px;
   flex:1 1 0;
   align-items: stretch;
 }
@@ -39,14 +46,7 @@
 .projects p {
   color:#000;
 }
-.project {
-  color:#000;
-  font-size: 24px;
-  /* margin:10px auto; */
-  display: flex;
-  flex: 1 1 0;
-  align-items: stretch;
-}
+
 .techStack {
   margin-top:10px;
   display:flex;
@@ -88,6 +88,7 @@ li {
   padding:0px 15px;
 }
 .summary {
+  max-width:640px;
   flex: 1 1 0;
   display: flex;
   align-items: stretch;
@@ -107,7 +108,7 @@ li {
     font-size:1.8vw;
     /* align-self: auto; */
   }
-  main, article, .project {
+  main, article {
     flex-direction: column;
 
   }
@@ -120,12 +121,12 @@ li {
     height:4320px;
   }
   .summary p {
-    font-size:2.2vw;
+    font-size:2.1vw;
     /* align-self: auto; */
   }
 }
 @media screen and (max-width: 1024px){
-  main, article, .project {
+  main, article{
     flex-direction: column;
 
   }
@@ -140,7 +141,7 @@ li {
   } */
 
   .summary p {
-    font-size:2.6vw;
+    font-size:2.3vw;
     /* align-self: auto; */
   }
 
@@ -192,7 +193,7 @@ li {
     height: 3200px;
 } */
   .projImg img{
-    width:95%;
+    width:100%;
     margin:auto;
   }
 }
