@@ -1,6 +1,6 @@
-#project-main {
+#project-main, article {
   background:  rgba(2, 51, 17, 0.2) url('../img/projects.jpg');
-  background-repeat:repeat-y;
+  /* background-repeat:repeat-y; */
   background-attachment: fixed;
   background-blend-mode: overlay;
   height:1080px;
