@@ -9,7 +9,7 @@ export default class Nav extends Component {
 
   function scrollToTargetAdjusted(section){
     const element = document.getElementById(section);
-    const headerOffset = 45;
+    const headerOffset = 60;
     const elementPosition = element.getBoundingClientRect().top;
     const offsetPosition = elementPosition - headerOffset;
 
