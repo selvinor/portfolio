@@ -1,24 +1,12 @@
 import React, { Component }  from 'react';
 import { Link } from 'react-router-dom';
-//import '../styles/nav.css';
-
 export default class Nav extends Component {
   componentWillMount() {
     
   }
 
   render() {
- // document.getElementById('Navbar_links').style.display = 'flex';
-  function toggleMenu() {
-    let appLinks = document.getElementById('Navbar_links');
 
-    if (appLinks.style.display === "none") {
-      appLinks.style.display = "flex";
-    } else {
-      appLinks.style.display = "none";
-    }
-
-  }
   function scrollToTargetAdjusted(section){
     const element = document.getElementById(section);
     const headerOffset = 45;
