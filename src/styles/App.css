@@ -4,7 +4,7 @@
   margin: 0;
 }
 body {
-  background: #2235e6 url('../img/conduit.jpg');
+  background: transparent url('../img/conduit.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; 
@@ -72,7 +72,7 @@ footer {
     font-size:3vw;
   } */
   body {
-    background: #2235e6 url('../img/servers_1024_1366.jpg');
+    background: transparent url('../img/servers_1024_1366.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; 
@@ -149,7 +149,7 @@ footer {
 @media screen and (max-width: 768px){
 
   body {
-    background: #2235e6 url('../img/servers_768_1024.jpg');
+    background: transparent url('../img/servers_768_1024.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; 
@@ -159,7 +159,7 @@ footer {
 @media screen and (max-width: 480px){
 
   body {
-    background: #2235e6 url('../img/servers_480_855.jpg');
+    background: transparent url('../img/servers_480_855.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; 
@@ -179,7 +179,7 @@ footer {
 @media screen and (max-width: 375px){
 
   body {
-    background: #2235e6 url('../img/servers_375_819.jpg');
+    background: transparent url('../img/servers_375_819.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; 
