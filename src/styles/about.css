@@ -2,9 +2,11 @@
   background:  rgb(106, 13, 114) url('../img/synth.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:cover;
   background-blend-mode: overlay;
-  height:1080px;
+  background-position:center center;
+  max-height:1080px;
+  width:100vw;
+  margin:auto;
 }
 .avatar  {
   border-radius:50%;
@@ -50,6 +52,22 @@ p {
   font-size: 2.5vw;
   color:#fff;
 }
+@media screen and (max-width: 1366px){
+  #about-main {
+    max-height:975px;
+  }
+}
+@media screen and (max-width: 1024px){
+  #about-main {
+    max-height:900px;
+  }
+}
+@media screen and (max-width: 1280px){
+  #about-main {
+    max-height:1085px;
+  }
+}
+
 @media screen and (max-width: 768px){
 
 
