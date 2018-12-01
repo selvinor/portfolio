@@ -3,17 +3,22 @@
   font-family: sans-serif;
   margin: 0;
 }
+#contact-article {
+  width:40%;
+  margin:auto;
+  
+}
 .contact-form input {
-
+  width:90%;
   height:35px;
-  width:200px;
+
   display:block;
   margin:20px auto auto;
 
 }
 .contact-form textarea {
 height:35px;
-width:200px;
+width:90%;
 height:150px;
 display:block;
 margin:auto;
@@ -85,8 +90,8 @@ margin:auto;
   padding:0;
   display: flex;
 }
-.contacts li a{
-  text-align:center;
+.contacts li {
+justify-content: space-between;
 }
 button {
   width:120px;
@@ -197,7 +202,7 @@ button a {
 
   #contact-article {
     margin:auto;
-    width:100%;
+    width:500px;
     display:flex;
     height:100%;
   }
@@ -212,7 +217,7 @@ button a {
   }
 .contact-form textarea {
   height:35px;
-  width:200px;
+  width:90%;
   height:150px;
   display:block;
   margin:auto;
