@@ -86,3 +86,38 @@ p {
     width: 90%;
   }
 }
+@media screen and (max-width: 768px){
+
+  #about-main {
+    background:  rgb(106, 13, 114) url('../img/synth_768_1024.jpg');
+  }
+}
+@media screen and (max-width: 480px){
+  #about-main {
+    background:  rgb(106, 13, 114) url('../img/synth_480_853.jpg');
+  }
+
+}
+@media screen and (max-width: 414px){
+
+  #about-main {
+    background:  rgb(106, 13, 114) url('../img/synth_414_900.jpg');
+  }
+}
+@media screen and (max-width: 375px){
+
+  #about-main {
+    background:  rgb(106, 13, 114) url('../img/synth_375_812.jpg');
+  }
+}
+@media screen and (max-width: 360px){
+
+  #about-main {
+    background:  rgb(106, 13, 114) url('../img/synth_360_740.jpg');
+  }
+}
+@media screen and (max-width: 320px){
+  #about-main {
+  background:  rgb(106, 13, 114) url('../img/synth_320_570.jpg');
+}
+}
