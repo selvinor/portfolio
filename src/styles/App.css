@@ -169,7 +169,7 @@ footer {
 @media screen and (max-width: 414px){
 
   body {
-    background: #2235e6 url('../img/servers_414_900.jpg');
+    background: transparent url('../img/servers_414_900.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; 
