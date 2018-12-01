@@ -24,7 +24,7 @@ header {
   margin: auto;
   text-align:center;
   border-bottom: none;
-  width:67%;
+
 }
 #home-article p {
   font-size:2.5vw;
@@ -67,13 +67,17 @@ footer {
   width:35px;
 }
 @media (min-width: 1366px){
+  #home-section {
+    /* height:200px; */
+    display:flex;
+  }
   #home-article {
     color: #fff;
     font-size: 3vw;
     margin: auto;
     text-align:center;
     border-bottom: none;
-    width:67%;
+    width:60%;
   }
   #home-article p {
     font-size:2.2vw;
@@ -158,6 +162,7 @@ text-align:left;
     font-size: 50px;
     text-align:center;
     border-bottom: none;
+    margin:auto;
   }
 
   .home-contacts img {

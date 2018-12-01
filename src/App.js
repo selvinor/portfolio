@@ -10,9 +10,11 @@ class App extends Component {
       <div className="app">
       <Switch>
           <Route exact path="/" component={Container} 
+          
             // onUpdate={document.getElementById("home-section").scrollIntoView()}
           />
           <Route exact path="/about" component={Container} 
+          
             // onUpdate={document.getElementById("about-section").scrollIntoView()}
 
           />

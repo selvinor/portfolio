@@ -2,10 +2,11 @@ import React from 'react';
 import './styles/contact.css';
 import Nav from './Nav'
 export default function Contact() {
+
   return (
     <React.Fragment>
       <Nav />
-      <main className="contact-main">   
+      <main id="contact-main">   
         <section id="contact-section">
           <article id="contact-article">
             <h3 className="contactMe">Contact Me @</h3>

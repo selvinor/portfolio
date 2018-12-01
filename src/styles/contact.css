@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-.contact-main {
+#contact-main {
   background: #666  url('../img/pipes.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -44,10 +44,7 @@
   color:#fff;
 
 }
-p {
-  color:#fff;
-  margin:10px 0;
-}
+
 
 .contact {
   display:flex;
@@ -59,9 +56,6 @@ p {
 }
 
 @media screen and (max-width: 768px){
-    main, nav {
-      flex-direction: column;
-    }
 
   header {
     padding:0px!important;

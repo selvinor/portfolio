@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <React.Fragment>
       <Nav />
-      <main className="home-main">   
+      <main id="home-main">   
         <section id="home-section">
           <article id="home-article">
             <h2 className="home-h2">Sel Norman</h2>
-            <p>I'm a Full Stack Developer looking to create mobile-first software for entrepreneurs and businesses.</p>
+            <p>is a Full Stack Developer looking to create mobile-first software for entrepreneurs and businesses.</p>
           </article> 
         </section>
       </main>   

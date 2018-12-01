@@ -1,5 +1,5 @@
-.about-main {
-  background:  #222 url('../img/synth.jpg');
+#about-main {
+  background:  rgb(106, 13, 114) url('../img/synth.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; 
@@ -7,8 +7,13 @@
   background-blend-mode: overlay;
   height:1080px;
 }
-.avatar {
-  margin-left:10%;
+.avatar  {
+  border-radius:50%;
+
+
+}
+.avatar img {
+  border-radius:50%;
   height:160px;
   width:160px;
 }
@@ -47,9 +52,7 @@ p {
   color:#fff;
 }
 @media screen and (max-width: 768px){
-    main, nav {
-      flex-direction: column;
-    }
+
 
   header {
     padding:0px!important;
