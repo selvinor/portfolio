@@ -65,19 +65,18 @@ footer {
   display: none;
   padding:10px;
 } 
+
 @media screen and (max-width: 1024px){
   /* main, nav, .summary, .project {
     flex-direction: column;
     font-size:3vw;
   } */
   body {
-    background: #2235e6 url('../img/DSC_1593.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center; 
-    background-blend-mode: overlay;
-    margin:auto;
-    background-size: cover;
+    background: #2235e6 url('../img/servers_1024_1366.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; 
+  background-blend-mode: overlay;
   }
  
   /* .Navbar__menu {
@@ -146,4 +145,44 @@ footer {
       margin: 10px auto 20px;
   }
 
+}
+@media screen and (max-width: 768px){
+
+  body {
+    background: #2235e6 url('../img/servers_768_1024.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; 
+  background-blend-mode: overlay;
+  }
+}
+@media screen and (max-width: 480px){
+
+  body {
+    background: #2235e6 url('../img/servers_480_855.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; 
+  background-blend-mode: overlay;
+  }
+}
+@media screen and (max-width: 414px){
+
+  body {
+    background: #2235e6 url('../img/servers_414_900.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; 
+  background-blend-mode: overlay;
+  }
+}
+@media screen and (max-width: 375px){
+
+  body {
+    background: #2235e6 url('../img/servers_375_819.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; 
+  background-blend-mode: overlay;
+  }
 }
