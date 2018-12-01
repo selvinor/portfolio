@@ -13,6 +13,9 @@
   margin:auto;
 }
 
+.projImg {
+  margin:auto;
+}
 .projImg img {
   width:640px;
   border-radius:10px;
@@ -34,6 +37,7 @@
   max-width:640px;
   flex:1 1 0;
   align-items: stretch;
+  margin:auto;
 }
 .summary button {
   margin:auto 10px auto 0;
