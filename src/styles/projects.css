@@ -75,23 +75,7 @@ ul {
 li {
   padding:0px 15px;
 }
-@supports 
-  ((-webkit-text-stroke-color: #666)
-  and
-  (-webkit-text-fill-color: white))
-  or
-  ((-moz-text-stroke-color: #666)
-  and
-  (-moz-text-fill-color: white)) {
-    #project-section h2, .projectTitle{
-       -moz-text-fill-color: white;
-    -webkit-text-fill-color: white;
-       -moz-text-stroke-color: #666;
-    -webkit-text-stroke-color: #666;
-       -moz-text-stroke-width: 1px;  
-    -webkit-text-stroke-width: 1px;
-  }
-}
+
 .summary p {
   font-size:1.2vw;
   align-self: auto;
@@ -112,7 +96,7 @@ li {
 
   }
   #project-main {
-    height:5100px;
+    height:4500px;
   }
   .summary p {
     font-size:2.6vw;
@@ -125,23 +109,25 @@ li {
 
   }
   #project-main {
-    height: 3500px;
-}
+    background: rgba(2, 51, 17, 0.2)  url('../img/projects_1024_768.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-blend-mode: overlay;
+  }  
+  
+  #project-main {
+    height: 3700px;
+  }
 
   .summary p {
     font-size:2.6vw;
     align-self: auto;
   }
 
-  #project-main {
-    background: rgba(2, 51, 17, 0.2)  url('../img/projects_1024_768.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 
-  background-blend-mode: overlay;
-  }
 }
-@media screen and (max-width: 1024px) and (max-width: 1366px){
+@media screen and (max-width: 1024px) and (max-height: 1366px){
 
   #project-main {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_1024_1366.jpg');
@@ -151,17 +137,7 @@ li {
   background-blend-mode: overlay;
   }
 }
-@media screen and (max-width: 1024px){
 
-  #project-main {
-    background: rgba(2, 51, 17, 0.2)   url('../img/projects_1024_768.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
-  height: 4250px;
-  }
-
-}
 
 @media screen and (max-width: 768px){
 
