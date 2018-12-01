@@ -14,9 +14,9 @@ export default class Contact extends Component {
           <section id="contact-section">
             <article id="contact-article">
               <h3 className="contactMe">Contact Me @</h3>
-              <div class="contact-form">
-                <input type="email" maxlength="50" placeholder="Title..." value="" />
-                <textarea rows="8" maxlength="500" placeholder="Contents..." />               
+              <div className="contact-form">
+                <input type="email" maxLength="50" placeholder="Title..." />
+                <textarea rows="8" maxLength="500" placeholder="Contents..." />               
               </div>
               <button><a href="mailto:selnorman.developer@gmail.com?subject=&amp;body=">Send E-mail</a></button>
               <ul className="contacts">
