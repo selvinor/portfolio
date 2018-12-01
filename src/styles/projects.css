@@ -4,6 +4,7 @@
   background-attachment: fixed;
   background-size:cover;
   background-blend-mode: overlay;
+  background-position: center center;
   height:2500px;
   margin:auto;
 }
@@ -26,7 +27,9 @@
   border-radius:10px;
   max-width:500px;
 }
-
+.summary button {
+  margin:auto;
+}
 .projectTitle {
   color:white;
   font-size:2.0vw;
@@ -100,6 +103,7 @@ li {
     background-attachment: fixed;
     background-size:cover;
     background-blend-mode: overlay;
+    background-position: center center;
     margin:auto;
     height:4500px;
   }
@@ -108,6 +112,20 @@ li {
     align-self: auto;
   }
 }
+@media screen and (max-width: 1024px) and (max-height: 1366px){
+
+  #project-main {
+    background: rgba(2, 51, 17, 0.2)   url('../img/projects_1024_1366.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    background-position: center center;
+    margin:auto;
+  }
+}
+
+
 @media screen and (max-width: 1024px){
   main, article, .project, .summary {
     flex-direction: column;
@@ -119,6 +137,7 @@ li {
     background-attachment: fixed;
     background-size:cover;
     background-blend-mode: overlay;
+    background-position: center center;
     margin:auto;
     height: 3700px;
   }
@@ -130,19 +149,6 @@ li {
 
 
 }
-@media screen and (max-width: 1024px) and (max-height: 1366px){
-
-  #project-main {
-    background: rgba(2, 51, 17, 0.2)   url('../img/projects_1024_1366.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    background-blend-mode: overlay;
-    margin:auto;
-  }
-}
-
-
 @media screen and (max-width: 768px){
 
   #project-main {
@@ -151,6 +157,7 @@ li {
     background-attachment: fixed;
     background-size:cover;
     background-blend-mode: overlay;
+    background-position: center center;
     margin:auto;
   height: 3800px;
 }
@@ -172,6 +179,7 @@ li {
     background-attachment: fixed;
     background-size:cover;
     background-blend-mode: overlay;
+    background-position: center center;
     margin:auto;
     height: 3200px;
 }
@@ -186,6 +194,7 @@ li {
     background-attachment: fixed;
     background-size:cover;
     background-blend-mode: overlay;
+    background-position: center center;
     margin:auto;
     height: 2800px;
   }
@@ -210,6 +219,7 @@ li {
     background-attachment: fixed;
     background-size:cover;
     background-blend-mode: overlay;
+    background-position: center center;
     margin:auto;
     height: 2600px;
   }
@@ -222,6 +232,7 @@ li {
     background-attachment: fixed;
     background-size:cover;
     background-blend-mode: overlay;
+    background-position: center center;
     margin:auto;
     height: 2700px;
   }
@@ -234,6 +245,7 @@ li {
     background-attachment: fixed;
     background-size:cover;
     background-blend-mode: overlay;
+    background-position: center center;
     margin:auto;
     height: 2700px;
   }
@@ -246,6 +258,7 @@ li {
     background-attachment: fixed;
     background-size:cover;
     background-blend-mode: overlay;
+    background-position: center center;
     margin:auto;
     height: 2800px;
   }
