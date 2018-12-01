@@ -96,6 +96,11 @@ li {
 
   }
   #project-main {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
     height:4500px;
   }
   .summary p {
@@ -110,13 +115,11 @@ li {
   }
   #project-main {
     background: rgba(2, 51, 17, 0.2)  url('../img/projects_1024_768.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  background-blend-mode: overlay;
-  }  
-  
-  #project-main {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
     height: 3700px;
   }
 
@@ -131,10 +134,11 @@ li {
 
   #project-main {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_1024_1366.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
   }
 }
 
@@ -143,9 +147,11 @@ li {
 
   #project-main {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_768.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
   height: 3800px;
 }
 #project-section h2 {
@@ -162,6 +168,11 @@ li {
 }
 @media screen and (max-width: 640px){
   #project-main {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
     height: 3200px;
 }
   .projImg img{
@@ -171,7 +182,12 @@ li {
 }
 @media screen and (max-width: 480px){
   #project-main {
-      height: 2800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
+    height: 2800px;
   }
 
   #project-section h2 {
@@ -190,35 +206,47 @@ li {
 
   #project-main {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_480.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
+    height: 2600px;
   }
 }
 @media screen and (max-width: 414px){
 
   #project-main {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_414.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
+    height: 2700px;
   }
 }
 @media screen and (max-width: 375px){
 
   #project-main {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_375.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
+    height: 2700px;
   }
 }
 @media screen and (max-width: 360px){
 
   #project-main {
     background: rgba(2, 51, 17, 0.2)   url('../img/projects_360.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    margin:auto;
+    height: 2800px;
   }
 }
