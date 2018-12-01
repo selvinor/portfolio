@@ -44,64 +44,85 @@
   color:#fff;
 
 }
+.contact a {
 
+}
 
 .contact {
   display:flex;
   align-items: center;
   justify-content: center;
 }
+.contact input {
+  height:35px;
+  width:400px;
+  display:block;
+
+}
+.contact textarea {
+  height:35px;
+  width:400px;
+  height:150px;
+  display:block;
+
+}
+.contacts {
+  list-style-type: none;
+  padding:0;
+  display: flex;
+}
 .contacts li a{
   text-align:center;
 }
 
 @media screen and (max-width: 768px){
-#contact-section {
-  height:1500px;
-}
-  header {
-    padding:0px!important;
-  }
-  .contact-main h2 {
-    color:#fff;
-    font-size:4vw;
-    
-  }
-  h3 {
-    font-size: 30px;
-    margin-top:10px;
-  }
-  p {
-    font-size: 20px;
-    margin-top:10px;
-  }
-  .contact {
-    height:600px;
+
+  #contact-section {
+    height: 1024px;
     display:flex;
   }
-  .contact-article p {
-    font-size:3.5vw;
-  }
-}
-  @media screen and (max-width: 440px){
-    .contact-article p {
+  #contact-article p {
     font-size:4.5vw;
   }
+
+  #contact-article {
+    margin:auto;
+    width:100%;
+    display:flex;
+    height:100%;
+  }
+  .contact-form input {
+    height: 35px;
+    width: 50%;
+    display: block;
+    margin: 20px auto auto;
+    font-size:2.5vw;
 }
 
+.contact-form textarea {
+  height:35px;
+  width:50%;
+  height:300px;
+  display:block;
+  margin:auto;
+  font-size:2.5vw;
 
+}
 
-
-.contacts {
+ul.contacts {
   list-style-type: none;
   padding:0;
+  display: block;
+  width:100%;
+  margin:auto;
 }
 .contacts li {
   display:inline-block;
   padding:20px;
 }
-h2.contactMe {
-  color:#fff;
+h3.contactMe {
+  color:#000;
+  font-size:4.5vw;
 }
 
 .contacts li a{
@@ -111,17 +132,111 @@ h2.contactMe {
 color:#fff;
 width:400px;
 }
-.contact-section {
+#contact-section {
 
   align-items: center;
   justify-content: center;
 }
-.contact-article {
-  background-color: #fff; 
+#contact-article {
   color:#000;
   /* padding:20px; */
 }
-.contact-article  h2 {
+#contact-article  h2 {
   color:#000;
 }
+button {
+  width:120px;
+  padding:10px;
+  margin:auto;
+  border-radius:10px;
 
+}
+button a {
+  text-decoration: none;
+  color:#000;
+  font-weight:bold;
+  font-size:2vw;
+
+}
+}
+@media screen and (max-width: 480px) {
+
+  #contact-section {
+    height: 700px;
+    display:flex;
+  }
+  #contact-article p {
+    font-size:4.5vw;
+  }
+
+  #contact-article {
+    margin:auto;
+    width:100%;
+    display:flex;
+    height:100%;
+  }
+
+  .contact-form input {
+
+    height:35px;
+    width:200px;
+    display:block;
+    margin:20px auto auto;
+
+  }
+.contact-form textarea {
+  height:35px;
+  width:200px;
+  height:150px;
+  display:block;
+  margin:auto;
+}
+
+.contacts {
+  list-style-type: none;
+  padding:0;
+  display: flex;
+}
+.contacts li {
+  display:inline-block;
+  padding:20px;
+}
+h3.contactMe {
+  color:#000;
+  font-size:4.5vw;
+}
+
+.contacts li a{
+  text-decoration:none;
+}
+.contacts li a, .contacts li a:visited{
+color:#fff;
+width:400px;
+}
+#contact-section {
+
+  align-items: center;
+  justify-content: center;
+}
+#contact-article {
+  color:#000;
+  /* padding:20px; */
+}
+#contact-article  h2 {
+  color:#000;
+}
+button {
+  width:100px;
+  padding:10px;
+  margin:auto;
+  border-radius:10px;
+
+}
+button a {
+  text-decoration: none;
+  color:#000;
+  font-weight:bold;
+  font-size:3vw;
+
+}
+}

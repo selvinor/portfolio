@@ -78,8 +78,11 @@ p {
     font-size:3.5vw;
   }
 }
-  @media screen and (max-width: 440px){
+  @media screen and (max-width: 480px){
     .about-article p {
     font-size:4.5vw;
+  }
+  .about-article p {
+    width: 90%;
   }
 }

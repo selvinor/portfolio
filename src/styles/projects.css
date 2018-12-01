@@ -170,3 +170,22 @@ li {
     margin:auto;
   }
 }
+@media screen and (max-width: 480px){
+  #project-main {
+      height: 2600px;
+  }
+
+  #project-section h2 {
+      font-size: 4.5vw;
+  }
+  h3.projectTitle {
+    color: white;
+    font-size: 5.0vw;
+    margin: 10px auto 20px;
+  }
+  .summary p {
+    font-size: 3vw;
+    align-self: auto;
+  }
+
+}

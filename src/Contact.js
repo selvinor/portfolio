@@ -14,13 +14,15 @@ export default class Contact extends Component {
           <section id="contact-section">
             <article id="contact-article">
               <h3 className="contactMe">Contact Me @</h3>
-              <div className="contact">
-                <ul className="contacts">
-                  <li><a href="https://github.com/selvinor"><img src={require('./img/github.png')} alt="Contact me via github"/></a></li>
-                  <li><a href="https://www.linkedin.com/in/selvin-norman-6ba4aa2b/"><img src={require('./img/linkedin-logo.png')} alt="Contact me via linkedin"/></a></li>
-                  <li><a href="mailto:selvin715@gmail.com"><img src={require('./img/email.png')} alt="Contact me via email"/></a></li>
-                </ul>
+              <div class="contact-form">
+                <input type="email" maxlength="50" placeholder="Title..." value="" />
+                <textarea rows="8" maxlength="500" placeholder="Contents..." />               
               </div>
+              <button><a href="mailto:selnorman.developer@gmail.com?subject=&amp;body=">Send E-mail</a></button>
+              <ul className="contacts">
+                <li><a href="https://github.com/selvinor"><img src={require('./img/github.png')} alt="Contact me via github"/></a></li>
+                <li><a href="https://www.linkedin.com/in/selvin-norman-6ba4aa2b/"><img src={require('./img/linkedin-logo.png')} alt="Contact me via linkedin"/></a></li>
+              </ul>
             </article> 
           </section>
         </main>    

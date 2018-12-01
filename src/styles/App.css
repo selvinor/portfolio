@@ -103,11 +103,6 @@ footer {
     font-size: 30px;
     margin-top:20px;
   }
-  .home p {
-    font-size: 20px;
-    margin:20px auto;
-    text-align:center;
-  }
 
   .App-header {
     background-color: #282c34;
@@ -131,13 +126,6 @@ footer {
     height: 400px;
     background-color: transparent;
     display: flex;
-  }
-  .home  {
-    color: #fff;
-    font-size: 50px;
-    margin: auto;
-    text-align:center;
-    border-bottom: none;
   }
   p {
     text-decoration: none;

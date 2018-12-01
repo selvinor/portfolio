@@ -103,11 +103,23 @@ footer {
     width: 60%;
 }
 }
-@media (min-width: 768px){
-  .links {
-     display: flex;
+@media (min-width: 1024px){
+  .home p {
+    font-size: 20px;
+    margin:20px auto;
+    text-align:center;
   }
+
+  .home  {
+    color: #fff;
+    font-size: 50px;
+    margin: auto;
+    text-align:center;
+    border-bottom: none;
+  }
+
 }
+
 .home-contact1,.home-contact2, .home-contact3 {
   padding: 20px;
   margin-bottom: 20px;
@@ -147,7 +159,9 @@ text-align:left;
   margin-top:10px;
 }
 @media screen and (max-width: 768px){
-
+  .links {
+    display: flex;
+ }
   .home {
     margin:auto;
   }
@@ -195,4 +209,27 @@ text-align:left;
     font-size:4.5vw;
 
   }
+}
+@media screen and (max-width: 480px){
+
+ 
+  #home-section  {
+    height:600px;
+  }
+
+  .home-contacts img {
+    width:35px;
+  }
+  
+  p {
+    text-decoration: none;
+  }
+  #home-article {
+    width:75%;
+  }
+  #home-article p {
+    font-size:4.5vw;
+
+  }
+
 }

@@ -17,7 +17,7 @@ export default class About extends Component {
               <div className="avatar">
                 <img src={require('./img/me_160_circle.png')} alt=""/>
               </div>
-              <p className="about-text">My passion is fueled by a mix of technology and art. As a full stack developer, I enjoy creating products and experiences that also leverage my skills as a photographer, electronic musician and graphic artist.</p>
+              <p className="about-text">My passion is fueled by a mix of technology and art. As a full stack developer, I enjoy creating products and experiences that leverage my skills as a photographer, electronic musician and graphic artist.</p>
               <p className="about-text">My work experience ranges from small business ownership to software development and support, to deploying network and server infrastructure across the globe.</p>
               <p className="about-text">Delivering value to my team and project is my primary focus.</p>             
             </article> 
