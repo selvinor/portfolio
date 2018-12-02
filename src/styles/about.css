@@ -3,7 +3,7 @@
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position:center center;
-  max-height:1080px;
+  height:1080px;
   width:100vw;
   margin:auto;
 }
@@ -53,23 +53,25 @@ p {
 }
 @media screen and (max-width: 1366px){
   #about-main {
-    max-height:975px;
+    height:975px;
   }
 }
 @media screen and (max-width: 1024px){
   #about-main {
-    max-height:900px;
+    height:900px;
   }
 }
 @media screen and (max-width: 1280px){
   #about-main {
-    max-height:1085px;
+    height:800px;
   }
 }
 
 @media screen and (max-width: 768px){
 
-
+  #about-main {
+    height:1024px;
+  }
   header {
     padding:0px!important;
   }
@@ -101,58 +103,29 @@ p {
   .about-article p {
     width: 90%;
   }
-}
-/* @media screen and (max-width: 768px){
-
   #about-main {
-    background:  rgb(106, 13, 114) url('../img/synthi_768_1024.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: overlay;
+  height:853px;
   }
-}
-@media screen and (max-width: 480px){
-  #about-main {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background:  rgb(106, 13, 114) url('../img/synthi_480_853.jpg');
-    background-blend-mode: overlay;
-  }
-
 }
 @media screen and (max-width: 414px){
-
   #about-main {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background:  rgb(106, 13, 114) url('../img/synthi_414_900.jpg');
-    background-blend-mode: overlay;
+    height:736px;
   }
 }
 @media screen and (max-width: 375px){
-
   #about-main {
-    background:  rgb(106, 13, 114) url('../img/synthi_375_812.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: overlay;
+    height:812px;
   }
+
 }
 @media screen and (max-width: 360px){
 
   #about-main {
-    background:  rgb(106, 13, 114) url('../img/synthi_360_740.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: overlay;
+    height:740px;
   }
 }
 @media screen and (max-width: 320px){
   #about-main {
-  background:  rgb(106, 13, 114) url('../img/synthi_320_570.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size:cover;
-  background-blend-mode: overlay;
+    height:568px;
   }
-} */
+}
