@@ -70,12 +70,12 @@ footer {
     flex-direction: column;
     font-size:3vw;
   } */
-  body {
+  /* body {
     background: transparent url('../img/servers_1024_1366.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode: overlay;
-  }
+  } */
  
   /* .Navbar__menu {
     background: #333;
@@ -150,11 +150,11 @@ footer {
     background: transparent url('../img/servers_768_1024.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   background-blend-mode: overlay;
+  height:1080px;
   }
 }
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
 
   body {
     background: transparent url('../img/servers_480_855.jpg');
@@ -189,4 +189,4 @@ footer {
   background-attachment: fixed; 
   background-blend-mode: overlay;
   }
-}
+} */
