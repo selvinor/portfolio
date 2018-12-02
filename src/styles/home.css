@@ -57,8 +57,7 @@ footer {
 }
 
 .links {
-  max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin:auto;
 }
 
 
@@ -146,17 +145,17 @@ text-align:left;
 
 
 .links {
-  display: none;
+  margin:auto;
 }
 .email {
   margin-top:10px;
 }
 @media screen and (max-width: 768px){
-  #home-main {
+  /* #home-main {
     height:1200px;
-  }
+  } */
   .links {
-    display: flex;
+    margin:auto;
  }
   .home {
     margin:auto;

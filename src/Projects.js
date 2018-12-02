@@ -15,7 +15,7 @@ export default class Projects  extends Component {
             <article className="project-article">
               <div className="project">
                 <div className="projImg">
-                  <h3 className="projectTitle">Project: Blooms Florist Subscriptions</h3>
+                <h3 className="projectTitle">Project: Blooms Florist Subscriptions</h3>
                   <a href="https://blooms-pdx.herokuapp.com/"><img src={require('./img/blooms_screen_640.jpg')} alt="blooms"/></a>
                 </div>
               </div>
