@@ -14,8 +14,8 @@
 }
 .avatar img {
   border-radius:50%;
-  height:160px;
-  width:160px;
+  height:80px;
+  width:80px;
 }
 #about-section {
   display:flex;
