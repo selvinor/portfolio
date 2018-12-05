@@ -43,7 +43,7 @@
   margin:auto 10px auto 0;
 }
 .projectTitle {
-  color:white;
+  color:#000;
   font-size:1.8vw;
   margin:10px auto 20px;
 }
@@ -69,7 +69,7 @@ h2 {
   text-align:center;
 }
 h3 {
-  color:#fff;
+  color:#000;
   font-size:2vw;
   text-align:center;
 
@@ -115,6 +115,11 @@ li {
   }
 }
 @media screen and (max-width: 1280px){
+  .projectTitle {
+    color:#000;
+    font-size:2vw;
+    margin:10px auto 20px;
+  }
   .summary p {
     font-size:1.8vw;
     /* align-self: auto; */
@@ -143,6 +148,11 @@ li {
   }
 }
 @media screen and (max-width: 1024px){
+  .projectTitle {
+    color:#000;
+    font-size:2.6vw;
+    margin:10px auto 20px;
+  }
   main, article{
     flex-direction: column;
 
@@ -182,6 +192,11 @@ li {
     margin:auto;
   height: 3800px;
 } */
+.projectTitle {
+  color:#000;
+  font-size:3.5vw;
+  margin:10px auto 20px;
+}
 #project-section h2 {
   color: white;
   font-size: 3.5vw;
@@ -225,7 +240,7 @@ li {
       font-size: 4.5vw;
   }
   h3.projectTitle {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 5.0vw;
     margin: 10px auto 20px;
   }
