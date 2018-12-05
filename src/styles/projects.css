@@ -1,5 +1,5 @@
 .project-article {
-  background:  rgba(2, 51, 17, 0.2) url('../img/projects.jpg');
+  background:  transparent url('../img/projects.jpg');
   /* background-repeat:repeat-y; */
   background-attachment: fixed;
   background-blend-mode: overlay;
@@ -32,7 +32,7 @@
 .summary {
 
   padding:20px;
-  background:rgba(221, 252, 232, 0.67) ;
+  background:rgba(122, 122, 122, 0.4) ;
   border-radius:10px;
   max-width:640px;
   flex:1 1 0;
@@ -90,6 +90,9 @@ ul {
 }
 li {
   padding:0px 15px;
+}
+.bold {
+  font-weight:bold;
 }
 .summary {
   max-width:640px;
