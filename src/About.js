@@ -1,6 +1,5 @@
 import React, { Component }  from 'react';
 import './styles/about.css';
-import Nav from './Nav'
 export default class About extends Component {
   componentWillMount() {
     
@@ -9,7 +8,6 @@ export default class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <Nav />
         <main id="about-main">   
           <section id="about-section">
             <article className="about-article">

@@ -1,6 +1,5 @@
 import React, { Component }  from 'react';
 import './styles/home.css';
-import Nav from './Nav'
 export default class Home extends Component {
   componentWillMount() {
     
@@ -8,7 +7,6 @@ export default class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <Nav />
         <main id="home-main">   
           <section id="home-section">
             <article id="home-article">

@@ -1,6 +1,5 @@
 import React, { Component }  from 'react';
 import './styles/contact.css';
-import Nav from './Nav'
 export default class Contact extends Component {
   componentWillMount() {
     
@@ -9,7 +8,6 @@ export default class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <Nav />
         <main id="contact-main">   
           <section id="contact-section">
             <article id="contact-article">

@@ -1,6 +1,5 @@
 import React, { Component }  from 'react';
 import './styles/projects.css';
-import Nav from './Nav'
 export default class Projects  extends Component {
   componentWillMount() {
     
@@ -9,7 +8,6 @@ export default class Projects  extends Component {
   render() {
     return (
       <React.Fragment>
-        <Nav />
         <main id="project-main">  
           <section id="project-section">
             <article className="project-article">
