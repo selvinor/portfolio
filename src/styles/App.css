@@ -55,6 +55,26 @@ footer {
 
 #Navbar_links {
   display:flex;
+  margin-right:20px;
+}
+.column {
+  height: 100%;  /*allows both columns to span the full height of the browser window*/
+  display: flex;
+  flex-direction: column;  /*places the left and right headers above the bottom content*/
+}
+.top{
+  background-color: #333;
+  padding: 0px 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  color: white;
+}
+.bottom {
+  flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
+  overflow-y: auto;  /*adds scroll to this container*/
 }
 .Navbar__menu {
   background: #333;
@@ -65,7 +85,6 @@ footer {
   display: none;
   padding:10px;
 } 
-
 @media screen and (max-width: 1024px){
   /* main, nav, .summary, .project {
     flex-direction: column;
