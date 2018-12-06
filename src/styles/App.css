@@ -57,6 +57,9 @@ footer {
   display:flex;
   margin-right:20px;
 }
+.Navbar__Link {
+  font-size:1.4vw;
+}
 .column {
   height: 100%;  /*allows both columns to span the full height of the browser window*/
   display: flex;
@@ -72,6 +75,9 @@ footer {
   position: fixed;
   color: white;
 }
+.me {
+  font-size: 2vw;
+}
 .bottom {
   flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
   overflow-y: auto;  /*adds scroll to this container*/
@@ -86,33 +92,6 @@ footer {
   padding:10px;
 } 
 @media screen and (max-width: 1024px){
-  /* main, nav, .summary, .project {
-    flex-direction: column;
-    font-size:3vw;
-  } */
-  /* body {
-    background: transparent url('../img/servers_1024_1366.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
-  } */
- 
-  /* .Navbar__menu {
-    background: #333;
-    opacity: 0.5;
-    width:100%;
-    height:46px;
-    align-self: flex-start;
-    display: flex;
-    padding:10px;
-  } 
-  .Navbar__menu img {
-    cursor: pointer;
-    margin-left: 10px;
-  }
-  #Navbar_links {
-    display:none;
-  } */
   h2 {
     font-size: 40px;
   }
@@ -169,40 +148,11 @@ footer {
   background-blend-mode: overlay;
   height:1080px;
   }
-}
-/* @media screen and (max-width: 480px){
-
-  body {
-    background: transparent url('../img/servers_480_855.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
+  .Navbar__Link {
+    font-size:3vw;
+  }
+  .top-left {
+    font-size: 3vw;
   }
 }
-@media screen and (max-width: 414px){
 
-  body {
-    background: transparent url('../img/servers_414_900.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
-  }
-}
-@media screen and (max-width: 375px){
-
-  body {
-    background: transparent url('../img/servers_375_819.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
-  }
-}
-@media screen and (max-width: 360px){
-
-  body {
-    background: transparent url('../img/servers_360_740.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-blend-mode: overlay;
-  }
-} */

@@ -21,11 +21,11 @@ export default class Nav extends Component {
 }
   return (
     <div className="top">
-      <div className="top-left">Sel Norman</div>
+      <div className="top-left"><span className="me">Sel Norman</span></div>
       <div className="top-right">
         <nav id="Navbar_links">
           <Link className="Navbar__Link" onClick={() => { scrollToTargetAdjusted('#home-main')}} to='/'>Home</Link>
-          <Link className="Navbar__Link" onClick={() => { scrollToTargetAdjusted('#about-main')}} to='/about'>About</Link>
+          <Link className="Navbar__Link" onClick={() => {document.querySelector('#about-main').scrollIntoView({ block: 'start',  behavior: 'smooth' })}} to='/about'>About</Link>
           <Link className="Navbar__Link" onClick={() => {document.querySelector('#project-main').scrollIntoView({ block: 'start',  behavior: 'smooth' })}} to='/projects'>Projects</Link>
           <Link className="Navbar__Link" onClick={() => { scrollToTargetAdjusted('#contact-main')}} to='/contact'>Contact</Link>
         </nav>

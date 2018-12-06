@@ -1,16 +1,16 @@
-.project-article {
-  background:  transparent url('../img/projects.jpg');
-  /* background-repeat:repeat-y; */
+#project-main {
+  background:  #444;
+  background: #666  url('../img/backgroundA.jpg');
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position:center center;
-  /* background-size:cover; */
-  max-height:875px;
+  height:100%;
   width:100vw;
   margin:auto;
 }
 #project-section {
   margin:auto;
+  height:100%;
 }
 
 .projImg {
@@ -39,13 +39,27 @@
   align-items: stretch;
   margin:auto;
 }
+button {
+  width:90px;
+  padding:5px 0;
+  margin:auto;
+  border-radius:10px;
+
+}
+button a {
+  text-decoration: none;
+  color:#000;
+  font-weight:bold;
+
+}
 .summary button {
   margin:auto 10px auto 0;
 }
+
 .projectTitle {
-  color:#000;
+  color:#ccc;
   font-size:1.8vw;
-  margin:10px auto 20px;
+  margin:80px auto 20px;
 }
 .projects p {
   color:#000;
@@ -102,12 +116,10 @@ li {
 }
 .summary p {
   font-size:1.2vw;
-  /* align-self: auto; */
 }
 @media screen and (max-width: 1366px){
   .summary p {
     font-size:1.8vw;
-    /* align-self: auto; */
   }
   
   .project-article {
@@ -116,13 +128,11 @@ li {
 }
 @media screen and (max-width: 1280px){
   .projectTitle {
-    color:#000;
     font-size:2vw;
-    margin:10px auto 20px;
+
   }
   .summary p {
     font-size:1.8vw;
-    /* align-self: auto; */
   }
   .project-main {
     height:3000px;
@@ -132,71 +142,31 @@ li {
   }
   main, article {
     flex-direction: column;
-
-  }
-  #project-main {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    background-blend-mode: overlay;
-    margin:auto;
-
   }
   .summary p {
     font-size:2.1vw;
-    /* align-self: auto; */
   }
 }
 @media screen and (max-width: 1024px){
   .projectTitle {
-    color:#000;
     font-size:2.6vw;
-    margin:10px auto 20px;
   }
   main, article{
     flex-direction: column;
 
   }
-  /* #project-main {
-    background: rgba(2, 51, 17, 0.2)  url('../img/projects_1024_768.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    background-blend-mode: overlay;
-    margin:auto;
-    height: 3700px;
-  } */
 
   .summary p {
     font-size:2.3vw;
-    /* align-self: auto; */
   }
 
 
 }
 @media screen and (max-width: 1024px) and (max-height: 1366px){
 
-  .project-article {
-    max-height:900px;
-  }
 }
-
 @media screen and (max-width: 768px){
 
-  /* #project-main {
-    background: rgba(2, 51, 17, 0.2)   url('../img/projects_768.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    background-blend-mode: overlay;
-    margin:auto;
-  height: 3800px;
-} */
-.projectTitle {
-  color:#000;
-  font-size:3.5vw;
-  margin:10px auto 20px;
-}
 #project-section h2 {
   color: white;
   font-size: 3.5vw;
@@ -210,85 +180,27 @@ li {
   }
 }
 @media screen and (max-width: 640px){
-  /* #project-main {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    background-blend-mode: overlay;
-    margin:auto;
-    height: 3200px;
-} */
+
   .projImg img{
     width:100%;
     margin:auto;
   }
 }
 @media screen and (max-width: 480px) and (max-height: 853px){
-  /* #project-main {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    background-blend-mode: overlay;
-    margin:auto;
-    height: 2800px;
-  } */
-  #project-article   {
-    height:853px;
-  }
+
 
   #project-section h2 {
       font-size: 4.5vw;
   }
   h3.projectTitle {
-    color: rgb(0, 0, 0);
-    font-size: 5.0vw;
-    margin: 10px auto 20px;
+    font-size: 4.0vw;
   }
   .summary p {
-    font-size: 3vw;
+    font-size: 3.4vw;
     /* align-self: auto; */
   }
   button a {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
-  /* #project-main { */
-    /* background: rgba(2, 51, 17, 0.2)   url('../img/projects_480.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    background-blend-mode: overlay;
-    margin:auto;
-    height: 2600px;
-  } */
-}
-@media screen and (max-width: 414px) and (max-height: 736px){
-  #project-article {
-   height:736px;
-  }
-}
-  @media screen and (max-width: 375px) and (max-height: 812px){
- #project-article {
-    height:812px;
-  }
-}
-@media screen and (max-width: 375px) and (max-height: 667px){
- #project-article {
-    height:667;
-  }
-}
-@media screen and (max-width: 375px){
- #project-article {
-    height:812px;
-  }
-}
-@media screen and (max-width: 360px){
- #project-article {
-    height:740px;
-  }
-}
-@media screen and (max-width: 320px){
- #project-article {
-    height:568px;
-  }
 }

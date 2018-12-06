@@ -229,33 +229,3 @@ text-align:left;
   }
 
 }
-@media screen and (max-width: 414px) and (max-height: 736px){
-  #home-section {
-   height:736px;
-  }
-}
-  @media screen and (max-width: 375px) and (max-height: 812px){
-  #home-section  {
-    height:812px;
-  }
-}
-@media screen and (max-width: 375px) and (max-height: 667px){
-  #home-section  {
-    height:667;
-  }
-}
-@media screen and (max-width: 375px){
-  #home-section  {
-    height:812px;
-  }
-}
-@media screen and (max-width: 360px){
-  #home-section  {
-    height:740px;
-  }
-}
-@media screen and (max-width: 320px){
-  #home-section  {
-    height:568px;
-  }
-}

@@ -7,6 +7,9 @@
   width:100vw;
   margin:auto;
 }
+#about-section {
+  margin-top:50px;
+}
 .avatar  {
   border-radius:50%;
 
@@ -105,27 +108,5 @@ p {
   }
   #about-main {
   height:853px;
-  }
-}
-@media screen and (max-width: 414px){
-  #about-main {
-    height:736px;
-  }
-}
-@media screen and (max-width: 375px){
-  #about-main {
-    height:812px;
-  }
-
-}
-@media screen and (max-width: 360px){
-
-  #about-main {
-    height:740px;
-  }
-}
-@media screen and (max-width: 320px){
-  #about-main {
-    height:568px;
   }
 }
