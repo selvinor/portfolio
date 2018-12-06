@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, withRouter, BrowserRouter, Switch } from 'react-router-dom';
 import Container from './Container'
+import Nav from './Nav'
 import './styles/App.css';
 
 class App extends Component {
@@ -10,9 +11,12 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-      <div className="app">
-      <Switch>
+      <div className="column">
+        <Nav />
+        <div className="bottom">
+        <BrowserRouter>
+        <div className="app">
+        <Switch>
           <Route exact path="/" component={Container} 
           
             // onUpdate={document.getElementById("home-section").scrollIntoView()}
@@ -32,6 +36,7 @@ class App extends Component {
       </Switch>
       </div>
       </BrowserRouter>
+      </div></div>
     );
   }
 }

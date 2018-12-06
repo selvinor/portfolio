@@ -8,26 +8,29 @@ export default class Nav extends Component {
   render() {
 
   function scrollToTargetAdjusted(section){
-    const element = document.getElementById(section);
-    const headerOffset = 45;
-    const elementPosition = element.getBoundingClientRect().top;
-    const offsetPosition = elementPosition - headerOffset;
 
-    window.scrollTo({
-         top: offsetPosition,
-         behavior: "smooth"
-    });
+    const ele = document.querySelector(section);
+    console.log('ele: ',ele);
+   // const headerOffset = 45;
+    const elementPosition = ele.getBoundingClientRect().top;
+    console.log('elementPosition: ',elementPosition);
+
+    
+    const element = document.querySelector(section);
+    element.scrollIntoView({ block: 'start',  behavior: 'smooth' });
 }
   return (
-    <React.Fragment>
-      {/* <div className="Navbar__menu"  onClick={() => {toggleMenu()}}><img src={require('./img/hamburger.png')} alt='' /></div> */}
-      <nav id="Navbar_links">
-        <Link className="Navbar__Link" onClick={() => { window.scrollTo(0, 0);scrollToTargetAdjusted('home-main')}} to='/'>Home</Link>
-        <Link className="Navbar__Link" onClick={() => { window.scrollTo(0, 0);scrollToTargetAdjusted('about-main')}} to='/about'>About</Link>
-        <Link className="Navbar__Link" onClick={() => { window.scrollTo(0, 0);scrollToTargetAdjusted('project-main')}} to='/projects'>Projects</Link>
-        <Link className="Navbar__Link" onClick={() => { window.scrollTo(0, 0);scrollToTargetAdjusted('contact-main')}} to='/contact'>Contact</Link>
-      </nav>
-    </React.Fragment>  
+    <div className="top">
+      <div className="top-left">Sel Norman</div>
+      <div className="top-right">
+        <nav id="Navbar_links">
+          <Link className="Navbar__Link" onClick={() => { scrollToTargetAdjusted('#home-main')}} to='/'>Home</Link>
+          <Link className="Navbar__Link" onClick={() => { scrollToTargetAdjusted('#about-main')}} to='/about'>About</Link>
+          <Link className="Navbar__Link" onClick={() => {document.querySelector('#project-main').scrollIntoView({ block: 'start',  behavior: 'smooth' })}} to='/projects'>Projects</Link>
+          <Link className="Navbar__Link" onClick={() => { scrollToTargetAdjusted('#contact-main')}} to='/contact'>Contact</Link>
+        </nav>
+      </div>
+    </div>  
   );
 }
 }
