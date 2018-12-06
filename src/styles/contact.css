@@ -92,9 +92,14 @@ margin:auto;
   list-style-type: none;
   padding:0;
   display: flex;
+  margin-top:20px;
+}
+.contacts button {
+  display:flex;
 }
 .contacts li {
 justify-content: space-between;
+margin:auto;
 }
 button {
   min-width:100px;
@@ -163,7 +168,7 @@ h3.contactMe {
   text-decoration:none;
 }
 .contacts li a, .contacts li a:visited{
-color:#fff;
+color:#000;
 width:400px;
 }
 #contact-section {
@@ -232,7 +237,7 @@ h3.contactMe {
   text-decoration:none;
 }
 .contacts li a, .contacts li a:visited{
-color:#fff;
+color:#000;
 width:400px;
 }
 #contact-section {
