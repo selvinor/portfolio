@@ -1,6 +1,7 @@
 #project-main {
   background:  #444;
-  background: #666  url('../img/backgroundA.jpg');
+  /* background: #666  url('../img/backgroundA.jpg'); */
+  background: transparent  url('../img/projects-black.PNG');
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position:center center;

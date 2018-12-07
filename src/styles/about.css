@@ -1,5 +1,6 @@
 #about-main {
-  background:  rgb(106, 13, 114) url('../img/synth.jpg');
+  /* background:  rgb(106, 13, 114) url('../img/synth.jpg'); */
+  background: transparent url('../img/synth-purp.PNG');
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position:center center;

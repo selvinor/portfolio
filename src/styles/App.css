@@ -4,7 +4,8 @@
   margin: 0;
 }
 body {
-  background: #2235e6 url('../img/conduit.jpg');
+  /* background: #2235e6 url('../img/conduit.jpg'); */
+  background: transparent url('../img/conduit-blue.PNG');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode: overlay;

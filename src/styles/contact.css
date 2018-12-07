@@ -4,7 +4,8 @@
   margin: 0;
 }
 #contact-main {
-  background: rgba(204, 204, 204, 0.8)  url('../img/pipes.jpg');
+  /* background: rgba(204, 204, 204, 0.8)  url('../img/pipes.jpg'); */
+  background: transparent  url('../img/pipes-silver.PNG');
   background-attachment: fixed;
   background-blend-mode: screen;
   background-position:center center;
