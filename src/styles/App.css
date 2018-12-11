@@ -5,11 +5,12 @@
 }
 body {
   /* background: #2235e6 url('../img/conduit.jpg'); */
-  background: transparent url('../img/conduit-blue.PNG');
+  background: #000 url('../img/_DSC0041.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-blend-mode: overlay;
-  background-size: cover;
+  /* background-blend-mode: overlay; */
+  background-size: contain;
+  background-position: -10% -100px;
 }
 header {
   padding: 60px;
@@ -144,11 +145,13 @@ footer {
 @media screen and (max-width: 768px){
 
   body {
-    background: transparent url('../img/servers_768_1024.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
-  height:1080px;
+    /* background: #2235e6 url('../img/conduit.jpg'); */
+    background: #000 url('../img/_DSC0041.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-blend-mode: overlay; */
+    background-size: contain;
+    background-position: 0% -30px;
   }
   .Navbar__Link {
     font-size:3vw;
@@ -158,3 +161,31 @@ footer {
   }
 }
 
+@media screen and (max-width: 415px){
+body {
+  /* background: #2235e6 url('../img/conduit.jpg'); */
+  background: #000 url('../img/_DSC0041.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-blend-mode: overlay; */
+  background-size: contain;
+  background-position: -20px 70px;
+}
+}  
+@media screen and (max-width: 320px){
+  body {
+    /* background: #2235e6 url('../img/conduit.jpg'); */
+    background: #000 url('../img/_DSC0041.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-blend-mode: overlay; */
+    background-size: contain;
+    background-position: -20px 70px;
+  }
+  .home-h2 {
+    font-size: 7vw;
+}
+#home-article {
+  margin:auto;
+}
+  }  
