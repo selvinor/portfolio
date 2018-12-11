@@ -7,12 +7,12 @@
   /* background: rgba(204, 204, 204, 0.8)  url('../img/pipes.jpg'); */
 
   background: transparent  url('../img/pipes-silver.PNG');
-  background-attachment: fixed;
+
   background-blend-mode: screen;
   background-position:center center;
   background-size: cover;
-  height:1080px;
-  widows: 100%;
+  height:1366px;
+  width: 100%;
   display:flex;
 }
 #contact-section {
@@ -20,20 +20,20 @@
   margin:auto;
 }
 #contact-article {
-  width:40%;
+  width:80%;
   margin:auto;
   
 }
 .contact-form input {
   width:90%;
-  height:35px;
-  font-size:1vw;
+
+  font-size:3vw;
   display:block;
   margin:20px auto auto;
 }
 .contact-form textarea {
-height:35px;
-font-size:1vw;
+
+font-size:3vw;
 width:90%;
 height:150px;
 display:block;
@@ -48,9 +48,9 @@ margin:auto;
 #contact-main {
 
   display:flex;
-  height:1080px;
+  height:1366px;
   width:100%;
-  margin-top:50px;
+
   }
 
 #contact-article {
@@ -123,6 +123,12 @@ button a {
   color:#000;
   font-weight:bold;
 
+}
+@media screen and (max-width: 1024px){
+  #contact-main {
+    height: 1366px;
+    display:flex;
+  }
 }
 @media screen and (max-width: 768px){
 

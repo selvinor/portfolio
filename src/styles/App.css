@@ -9,8 +9,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   /* background-blend-mode: overlay; */
-  background-size: contain;
   background-position: -10% -100px;
+  height:100%;
+  width:100vw;
+  margin:auto;
 }
 header {
   padding: 60px;
