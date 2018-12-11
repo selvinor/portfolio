@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode: overlay;
+  background-size: cover;
 }
 header {
   padding: 60px;

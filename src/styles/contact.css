@@ -9,6 +9,7 @@
   background-attachment: fixed;
   background-blend-mode: screen;
   background-position:center center;
+  background-size: cover;
   height:100%;
   width:100vw;
   margin:auto;

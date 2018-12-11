@@ -4,6 +4,7 @@
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position:center center;
+    background-size: cover;
   height:1080px;
   width:100vw;
   margin:auto;

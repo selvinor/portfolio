@@ -60,7 +60,7 @@ export default class Projects  extends Component {
               </div>
               <div className="summary">
                 <p><button><a href='https://github.com/thinkful-ei23/Client-Emoji-Tim-Sel'>GitHub Link</a></button><button><a href='https://emoji-space-rep-client.herokuapp.com'>Live Link</a></button></p>
-                <p><span className="bold">Emoji Learning</span> app will help you to learn the emoji language, which is based on symbols that easily bridge language barriers, save time, and add emotional nuance that is difficult to achieve in brief text exchanges. The app utilizes Spaced Repetition Learning to help users retain knowledge easier by testing them more often on the things they forget most frequently.
+                <p><span className="bold">Emoji Madness</span> is an app will help you to learn the emoji language, which is based on symbols that easily bridge language barriers, save time, and add emotional nuance that is difficult to achieve in brief text exchanges. The app utilizes Spaced Repetition Learning to help users retain knowledge easier by testing them more often on the things they forget most frequently.
                 <span className="techStack">Tech Stack: React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</span></p>
               </div>
             </article> 

@@ -6,6 +6,7 @@
   background-blend-mode: overlay;
   background-position:center center;
   height:100%;
+  background-size: cover;
   width:100vw;
   margin:auto;
 }
