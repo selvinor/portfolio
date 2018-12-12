@@ -181,8 +181,8 @@ ul.contacts {
   align-items: flex-start 
 }
 .contacts li {
-  display:inline-block;
-  padding:20px;
+
+  padding:5px;
 }
 h3.contactMe {
   color:#000;
@@ -210,6 +210,9 @@ margin:auto;
   color:#000;
 }
 
+.contacts button a{
+  font-size:3vw;
+}
 
 }
 @media screen and (max-width: 480px) and (max-height: 853px) {
@@ -250,10 +253,7 @@ margin:auto;
   padding:0;
   display: flex;
 }
-.contacts li {
-  display:inline-block;
-  padding:20px;
-}
+
 h3.contactMe {
   color:#000;
   font-size:4.5vw;
@@ -335,7 +335,6 @@ width:400px;
      margin: auto;
      width: 100%;
      display: flex;
-     
  }
 
  }
@@ -389,7 +388,5 @@ width:400px;
     display: flex;
     height: 100%;
 }
-ul.contacts {
-width:70%;
-}
+
 }
