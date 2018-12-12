@@ -18,7 +18,7 @@ export default class Contact extends Component {
               </div>
               <ul className="contacts">
                 <li><a href="https://github.com/selvinor"><img src={require('./img/GitHub-Mark-120px-plus.png')} alt="Contact me via github"/></a></li>
-                <li><button><a href="mailto:selnorman.developer@gmail.com?subject=&amp;body=">Send E-mail</a></button></li>
+                <li><a href="https://www.selnorman.com/img/SelNorman.pdf"><img src={require('./img/pdf.png')} alt="View my Resume"/></a></li>
                 <li><a href="https://www.linkedin.com/in/selvin-norman-6ba4aa2b/"><img src={require('./img/icons8-linkedin-100.png')} alt="Contact me via linkedin"/></a></li>
               </ul>
             </article> 
