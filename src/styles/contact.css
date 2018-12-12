@@ -6,7 +6,7 @@
 #contact-main {
   /* background: rgba(204, 204, 204, 0.8)  url('../img/pipes.jpg'); */
 
-  background: transparent  url('../img/pipes-silver.PNG');
+  background: transparent  url('../img/background.gif');
 
   background-blend-mode: screen;
   background-position:center center;
