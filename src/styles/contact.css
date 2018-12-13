@@ -31,13 +31,13 @@
 .contact-form input {
   width:90%;
 
-  font-size:3vw;
+  font-size:1.5vw;
   display:block;
   margin:20px auto auto;
 }
 .contact-form textarea {
 
-font-size:3vw;
+font-size:1.5vw;
 width:90%;
 height:150px;
 display:block;
