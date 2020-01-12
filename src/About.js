@@ -16,7 +16,7 @@ export default class About extends Component {
                 <img src={require('./img/me_160_circle.png')} alt=""/>
               </div>
               <div className="about-desc">
-                <p className="about-text">Hello, I'm a full stack developer based in Portland Oregon.  My passion is developing useful software that makes it easier to do business.</p>
+                <p className="about-text">Solutions oriented full stack developer with a passion for helping others and solving problems.<br />I’ve always sought out opportunities that challenged me, learning new skills and adapting to varied environments here and abroad.</p>
               </div>
             </article> 
           </section>
