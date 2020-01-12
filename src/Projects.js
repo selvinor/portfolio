@@ -10,6 +10,39 @@ export default class Projects  extends Component {
       <React.Fragment>
         <main id="project-main">  
           <section id="project-section">
+            <article className="project-article"> 
+            <div className="projImg">               
+                <h3 className="projectTitle">Project: Delivery Tracking App</h3>
+                <a href="https://github.com/selvinor/delivery-tracking-client"><img src={require('./img/deliveryTracking.png')} alt="delivery tracking"/></a>
+              </div>
+              <div className="summary">
+                <p><button><a href='https://github.com/selvinor/delivery-tracking-client'>GitHub Link</a></button></p>
+
+                <p><span className="bold">Delivery Tracking App</span> A responsive web app that provides order entry, pickup and delivery scheduling, routing and tracking with a central depot.
+                <span className="techStack">Tech Stack: React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</span></p>
+              </div>            
+            </article> 
+            <article className="project-article">
+            <div className="projImg">               
+              <h3 className="projectTitle">Project: AWS IoT Provisioning</h3>
+              <a href="https://github.com/selvinor/aws-iot-provisioning"><img src={require('./img/aws-iot-device-provisioning.png')} alt="aws iot device provisioning"/></a>
+              </div>
+              <div className="summary">
+                <p><button><a href='https://github.com/selvinor/aws-iot-provisioning'>GitHub Link</a></button></p>
+                <p><span className="bold">AWS IoT Provisioning</span> Automates provisioning of IoT devices. The device sends it's thing name to an API gateway. If the device has the permission to be provisioned it receives as a result, the region, iot endpoint, private key and certificate. With this information the device is able to connect to the endpoint where it has been provisioned and may publish data.
+                <span className="techStack">Tech Stack: Python, AWS Lambda, AWS DynamoDB, Raspberry Pi</span></p>
+              </div>            
+            </article> 
+            <article className="project-article">
+              <div className="project">
+                <h3 className="projectTitle">Project: AWS IoT Device Manager</h3>
+              </div>
+              <div className="summary">
+                <p><button><a href='https://github.com/selvinor/aws-iot-device-manager '>GitHub Link</a></button></p>
+                <p><span className="bold">AWS IoT Device Manager</span> A responsive mobile app that updates AWS IoT devices with  reference values  of plant attributes and optimal ranges for temperature, ph, salts for comparison with plant sensor readings and trigger responses.
+                <span className="techStack">Tech Stack: React Native, Expo, ReactHooks, Amplify,  AWD Cloud Formation, Cognito</span></p>
+              </div>            
+            </article> 
             <article className="project-article">
               <div className="project">
                 <div className="projImg">

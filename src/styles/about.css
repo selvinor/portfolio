@@ -1,6 +1,6 @@
 #about-main {
   /* background:  rgb(106, 13, 114) url('../img/synth.jpg'); */
-  background: transparent url('../img/synth-purp.PNG');
+  background: transparent url('../img/lp2.jpg');
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position:center center;
@@ -31,8 +31,8 @@
 }
 .avatar img {
   border-radius:50%;
-  height:80px;
-  width:80px;
+  height:160px;
+  width:160px;
 }
 
 
@@ -47,7 +47,7 @@ p {
   justify-content: center;
 }
 .about-article {
-  margin:auto;
+  margin:20% 0 0;
   text-align:center;
   border:0;
 
