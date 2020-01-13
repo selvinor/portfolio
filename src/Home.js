@@ -17,7 +17,7 @@ export default class Home extends Component {
         </main>   
 
   
-      </React.Fragment>  
+      </React.Fragment>   
     );  
   }
 }
