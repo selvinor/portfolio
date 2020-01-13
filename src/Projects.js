@@ -23,25 +23,21 @@ export default class Projects  extends Component {
               </div>            
             </article> 
             <article className="project-article">
-            <div className="projImg">               
-              <h3 className="projectTitle">Project: AWS IoT Provisioning</h3>
-              <a href="https://github.com/selvinor/aws-iot-provisioning"><img src={require('./img/aws-iot-device-provisioning.png')} alt="aws iot device provisioning"/></a>
+              <div className="projImg2">
+              <h3 className="projectTitle">Project: Houseplant Manager</h3>
+                <p><a href="https://github.com/selvinor/aws-iot-device-manager"><img className={"plantObject"} src={require('./img/plantObject.png')} width="150px" height="150px" alt={"plant reference"}/></a></p>
+                <p><a href="https://github.com/selvinor/aws-iot-provisioning"><img className={"plantObject"} src={require('./img/aws-iot-device-provisioning.png')} width="150px" height="150px" alt={"plant reference"}/></a></p>            
               </div>
               <div className="summary">
-                <p><button><a href='https://github.com/selvinor/aws-iot-provisioning'>GitHub Link</a></button></p>
-                <p><span className="bold">AWS IoT Provisioning</span> Automates provisioning of IoT devices. The device sends it's thing name to an API gateway. If the device has the permission to be provisioned it receives as a result, the region, iot endpoint, private key and certificate. With this information the device is able to connect to the endpoint where it has been provisioned and may publish data.
-                <span className="techStack">Tech Stack: Python, AWS Lambda, AWS DynamoDB, Raspberry Pi</span></p>
-              </div>            
-            </article> 
-            <article className="project-article">
-              <div className="project">
-                <h3 className="projectTitle">Project: AWS IoT Device Manager</h3>
-              </div>
-              <div className="summary">
-                <p><button><a href='https://github.com/selvinor/aws-iot-device-manager '>GitHub Link</a></button></p>
                 <p><span className="bold">AWS IoT Device Manager</span> A responsive mobile app that updates AWS IoT devices with  reference values  of plant attributes and optimal ranges for temperature, ph, salts for comparison with plant sensor readings and trigger responses.
                 <span className="techStack">Tech Stack: React Native, Expo, ReactHooks, Amplify,  AWD Cloud Formation, Cognito</span></p>
               </div>            
+                <p><button><a href='https://github.com/selvinor/aws-iot-device-manager '>GitHub Link</a></button></p>
+                <div className="summary">
+                <p><span className="bold">AWS IoT Provisioning</span> Automates provisioning of IoT devices. The device sends it's thing name to an API gateway. If the device has the permission to be provisioned it receives as a result, the region, iot endpoint, private key and certificate. With this information the device is able to connect to the endpoint where it has been provisioned and may publish data.
+                <span className="techStack">Tech Stack: Python, AWS Lambda, AWS DynamoDB, Raspberry Pi</span></p>
+                </div>   
+                <p><button><a href='https://github.com/selvinor/aws-iot-provisioning'>GitHub Link</a></button></p>         
             </article> 
             <article className="project-article">
               <div className="project">
