@@ -18,7 +18,7 @@ export default class Projects  extends Component {
               <div className="summary">
                 <p><button><a href='https://github.com/selvinor/delivery-tracking-client'>GitHub Link</a></button></p>
 
-                <p><span className="bold">Delivery Tracking App</span> A responsive web app that provides order entry, pickup and delivery scheduling, routing and tracking with a central depot.
+                <p><span className="bold">Delivery Tracking App </span> A responsive web app that provides order entry, pickup and delivery scheduling, routing and tracking with a central depot.
                 <span className="techStack">Tech Stack: React, Redux, Node.js, Express, Mongo, Mongoose, Bcrypt, Passport</span></p>
               </div>            
             </article> 
