@@ -9,7 +9,10 @@
     "react-mail-form": "^1.0.3",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.3.0"
+    "react-scripts": "^3.3.0",
+    "serialize-javascript": "^2.1.2",
+    "set-value": "^2.0.1",
+    "webpack-dev-server": "^3.10.1"
   },
   "scripts": {
     "start": "react-scripts start",
