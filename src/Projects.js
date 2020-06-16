@@ -12,7 +12,7 @@ export default class Projects extends Component {
               <div className="summary">
                 <p>
                   <button>
-                  <a href="https://github.com/https://react-shopping-cart-test-sel.herokuapp.com//react-shopping-cart">
+                  <a href="https://react-shopping-cart-test-sel.herokuapp.com">
                       Live Link
                     </a>
                   </button>
