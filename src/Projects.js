@@ -9,6 +9,20 @@ export default class Projects extends Component {
         <main id="project-main">
           <section id="project-section">
             <article className="project-article">
+            <div className="project">
+                <div className="projImg">
+                  <h3 className="projectTitle">
+                    Project: React Shopping Cart
+                  </h3>
+                  <a href="https://react-shopping-cart-test-sel.herokuapp.com/">
+                    <img
+                      src={require("./img/cart.png")}
+                      alt="shopping-cart"
+                      width="640px"
+                    />
+                  </a>
+                </div>
+              </div>
               <div className="summary">
                 <p>
                   <button>
